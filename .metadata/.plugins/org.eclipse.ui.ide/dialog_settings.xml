@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\admin\eclipse-workspace\workdaily-training-ph-c"/>
+			<item value="C:\Users\admin\eclipse-workspace\workdaily-training-ph2"/>
+			<item value="C:\Users\admin\eclipse-workspace\wuxianxian"/>
+			<item value="C:\Users\admin\eclipse-workspace\angular-training-GX"/>
+			<item value="C:\Users\admin\eclipse-workspace\angular-training-sut"/>
+			<item value="C:\Users\admin\eclipse-workspace\angular-training"/>
+			<item value="C:\Users\admin\eclipse-workspace\workdaily-training-w"/>
+			<item value="C:\Users\admin\eclipse-workspace\workdaily-training"/>
+			<item value="C:\Users\admin\eclipse-workspace\angular-training_org"/>
+			<item value="C:\Users\admin\eclipse-workspace\angular-training-sample"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,17 @@
+
+INSERT INTO ktKamokuCode (kCd,kName)VALUES('511000','受託者報酬')
+INSERT INTO ktKamokuCode (kCd,kName)VALUES('512000','委託者報酬')
+INSERT INTO ktKamokuCode (kCd,kName)VALUES('531001','その他費用（監査）')
+INSERT INTO ktKamokuCode (kCd,kName)VALUES('531002','その他費用（印刷）')
+INSERT INTO ktKamokuCode (kCd,kName)VALUES('531003','その他費用（その他1）')
+INSERT INTO ktKamokuCode (kCd,kName)VALUES('531004','その他費用（その他2）')
+INSERT INTO ktKamokuCode (kCd,kName)VALUES('531005','その他費用（カストディーフィー）')
+INSERT INTO ktKamokuCode (kCd,kName)VALUES('531006','その他費用（信用取引）')
+INSERT INTO ktKamokuCode (kCd,kName)VALUES('531007','その他費用（借入債券）')
+INSERT INTO ktKamokuCode (kCd,kName)VALUES('531008','その他費用（借入株式）')
+INSERT INTO ktKamokuCode (kCd,kName)VALUES('531099','その他費用（その他）')
+INSERT INTO ktKamokuCode (kCd,kName)VALUES('533001','その他外貨費用（取次手数料）')
+INSERT INTO ktKamokuCode (kCd,kName)VALUES('533002','その他外貨費用（その他）')
+INSERT INTO ktKamokuCode (kCd,kName)VALUES('501000','募集手数料')
+
+INSERT INTO calRule (rCd,name,nameEng,updUser,updDate,updTime)VALUES('0001','募集手数料','abcd','王',to_date('2017-06-06','yyyy-MM-dd'),to_date('2017-06-06','yyyy-MM-dd'))

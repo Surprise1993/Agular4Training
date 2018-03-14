@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="cn.com.transcosmos.training.domain.Heroe"/>
+<fullyQualifiedTypeName name="javax.validation.constraints.NotNull"/>
+<fullyQualifiedTypeName name="cn.com.transcosmos.training.domain.MemberMapper"/>
+<fullyQualifiedTypeName name="cn.com.transcosmos.training.domain.MemberExample"/>
+<fullyQualifiedTypeName name="cn.com.transcosmos.training.service.MemberService"/>
+<fullyQualifiedTypeName name="cn.com.transcosmos.training.domain.Member"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+<fullyQualifiedTypeName name="cn.com.transcosmos.training.service.PersonTimeService"/>
+<fullyQualifiedTypeName name="cn.com.transcosmos.training.mapper.PersonTimeMapper"/>
+<fullyQualifiedTypeName name="cn.com.transcosmos.training.domain.PersonTime"/>
+<fullyQualifiedTypeName name="cn.com.transcosmos.training.controller.UserInfoExample.Criterion"/>
+<fullyQualifiedTypeName name="cn.com.transcosmos.training.controller.UserInfoExample.Criteria"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="cn.com.transcosmos.training.mapper.PersonFor366Mapper"/>
+<fullyQualifiedTypeName name="cn.com.transcosmos.training.service.PersonFor366Service"/>
+<fullyQualifiedTypeName name="java.lang.Error"/>
+<fullyQualifiedTypeName name="org.hibernate.validator.constraints.Length"/>
+<fullyQualifiedTypeName name="org.bouncycastle.asn1.esf.CommitmentTypeIndication"/>
+<fullyQualifiedTypeName name="java.util.TreeMap"/>
+<fullyQualifiedTypeName name="cn.com.transcosmos.training.domain.PersonFor366"/>
+<fullyQualifiedTypeName name="java.time.Month"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="org.apache.commons.collections.map.LinkedMap"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+</qualifiedTypeNameHistroy>

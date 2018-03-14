@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_152" class="java.beans.XMLDecoder">
+ <object class="org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceInfo" id="MarketplaceInfo0">
+  <void property="iuToNodeKey">
+   <void method="put">
+    <string>org.eclipse.datatools.intro</string>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <string>http://marketplace.eclipse.org#2326198</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>org.jkiss.dbeaver.ext.office.feature</string>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <string>http://marketplace.eclipse.org#3753120</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>org.eclipse.datatools.doc.user</string>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <string>http://marketplace.eclipse.org#2326198</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>org.eclipse.datatools.common.doc.user</string>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <string>http://marketplace.eclipse.org#2326198</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>org.eclipse.datatools.enablement.feature</string>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <string>http://marketplace.eclipse.org#2326198</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>org.jkiss.dbeaver.runtime.feature</string>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <string>http://marketplace.eclipse.org#507775</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>org.jkiss.dbeaver.ext.mysql.feature</string>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <string>http://marketplace.eclipse.org#507775</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>org.jkiss.dbeaver.ext.exasol.feature</string>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <string>http://marketplace.eclipse.org#507775</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>org.jkiss.dbeaver.ext.db2.feature</string>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <string>http://marketplace.eclipse.org#507775</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>org.eclipse.datatools.sqldevtools.feature</string>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <string>http://marketplace.eclipse.org#2326198</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>org.jkiss.dbeaver.ext.oracle.feature</string>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <string>http://marketplace.eclipse.org#507775</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>org.eclipse.datatools.connectivity.feature</string>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <string>http://marketplace.eclipse.org#2326198</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>org.jkiss.dbeaver.core.feature</string>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <string>http://marketplace.eclipse.org#507775</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>org.eclipse.datatools.sqltools.doc.user</string>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <string>http://marketplace.eclipse.org#2326198</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>org.eclipse.datatools.enablement.sdk.feature</string>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <string>http://marketplace.eclipse.org#1418115</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>org.eclipse.datatools.modelbase.feature</string>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <string>http://marketplace.eclipse.org#2326198</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>org.jkiss.dbeaver.ext.generic.feature</string>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <string>http://marketplace.eclipse.org#507775</string>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="nodeKeyToIU">
+   <void method="put">
+    <string>http://marketplace.eclipse.org#3753120</string>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <string>org.jkiss.dbeaver.ext.office.feature</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>http://marketplace.eclipse.org#1418115</string>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <string>org.eclipse.datatools.enablement.sdk.feature</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>http://marketplace.eclipse.org#507775</string>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <string>org.jkiss.dbeaver.runtime.feature</string>
+     </void>
+     <void method="add">
+      <string>org.jkiss.dbeaver.ext.generic.feature</string>
+     </void>
+     <void method="add">
+      <string>org.jkiss.dbeaver.ext.mysql.feature</string>
+     </void>
+     <void method="add">
+      <string>org.jkiss.dbeaver.ext.oracle.feature</string>
+     </void>
+     <void method="add">
+      <string>org.jkiss.dbeaver.core.feature</string>
+     </void>
+     <void method="add">
+      <string>org.jkiss.dbeaver.ext.db2.feature</string>
+     </void>
+     <void method="add">
+      <string>org.jkiss.dbeaver.ext.exasol.feature</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>http://marketplace.eclipse.org#2326198</string>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <string>org.eclipse.datatools.modelbase.feature</string>
+     </void>
+     <void method="add">
+      <string>org.eclipse.datatools.connectivity.feature</string>
+     </void>
+     <void method="add">
+      <string>org.eclipse.datatools.sqldevtools.feature</string>
+     </void>
+     <void method="add">
+      <string>org.eclipse.datatools.intro</string>
+     </void>
+     <void method="add">
+      <string>org.eclipse.datatools.doc.user</string>
+     </void>
+     <void method="add">
+      <string>org.eclipse.datatools.common.doc.user</string>
+     </void>
+     <void method="add">
+      <string>org.eclipse.datatools.sqltools.doc.user</string>
+     </void>
+     <void method="add">
+      <string>org.eclipse.datatools.enablement.feature</string>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
+</java>

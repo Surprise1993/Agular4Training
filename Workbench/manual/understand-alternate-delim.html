@@ -1,0 +1,77 @@
+<html><head><META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>8.&nbsp;Creating stored procedures and triggers</title><link href="html-publish.css" type="text/css" rel="stylesheet"><meta content="DocBook XSL Stylesheets V1.78.1" name="generator"><link rel="home" href="workbench-manual.html" title="SQL Workbench/J User's Manual"><link rel="up" href="workbench-manual.html" title="SQL Workbench/J User's Manual"><link rel="prev" href="editor.html" title="7.&nbsp;Editing SQL Statements"><link rel="next" href="using.html" title="9.&nbsp;Using SQL Workbench/J"><link rel="article" href="workbench-manual.html" title="SQL Workbench/J User's Manual"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table summary="Navigation header" width="100%"><tr><th align="center" colspan="3">8.&nbsp;Creating stored procedures and triggers</th></tr><tr><td align="left" width="20%"><a accesskey="p" href="editor.html">Prev</a>&nbsp;</td><th align="center" width="60%">&nbsp;</th><td align="right" width="20%">&nbsp;<a accesskey="n" href="using.html">Next</a></td></tr></table><hr></div><div class="section" id="understand-alternate-delim"><div class="titlepage"><div><div><h2 class="title" style="clear: both">8.&nbsp;Creating stored procedures and triggers</h2></div></div></div><a name="N10DC1" class="indexterm"></a><a name="N10DC7" class="indexterm"></a><a name="N10DCD" class="indexterm"></a><p>
+    SQL Workbench/J will send the contents of the editor unaltered to the DBMS, so
+    executing DDL statements (<code class="literal">CREATE TABLE</code>, ...) is possible.
+  </p><p>
+    However when executing statements such as <code class="literal">CREATE PROCEDURE</code> which
+    in turn contain valid SQL statement, delimited with a ; the SQL Workbench/J
+    will send everything up to the first semicolon to the
+    backend. In case of a <code class="literal">CREATE PROCEDURE</code> statement this will obviously
+    result in an error as the statement is not complete.
+  </p><p>
+    This is an example of a <code class="literal">CREATE PROCEDURE</code> which will
+    <span class="bold"><strong>not</strong></span> work due to the embedded semicolon in
+    the procedure source itself.
+  </p><pre class="programlisting">CREATE OR REPLACE FUNCTION proc_sample RETURN INTEGER
+IS
+result INTEGER;
+BEGIN
+SELECT max(col1) INTO result FROM sometable;
+RETURN result;
+END;</pre><p>
+    When executing this script, Oracle would return an error because SQL Workbench/J will
+    send everything up to the keyword <code class="literal">INTEGER</code> to the database. Obviously that
+    fragment would not be correct.
+  </p><p>
+    The solution is to terminate the script with a character
+    sequence called the "<a class="link" href="options.html#options-alternate-delimiter" title="Alternate Delimiter">alternate delimiter</a>".
+    The value of this sequence can be configured in the <a class="link" href="options.html" title="24.&nbsp;Options dialog">options dialog</a>
+    as a global default, or per <a class="link" href="profiles.html#profile-alternate-delimiter" title="6.5.17.&nbsp;Alternate delimiter">connection profile</a>
+    (so you can use different alternate delimiters for different database systems).
+    The default is the forward slash <span class="bold"><strong>/</strong></span> defined as a single
+    line delimiter.
+  </p><p>
+    If a SQL statement is terminated with the alternate delimiter,
+    that delimiter is used instead of a semicolon. This way the semicolons embedded in
+    <code class="literal">CREATE PROCEDURE</code> statements will be sent correctly to the backend
+    DBMS.
+  </p><p>So the solution to the above problem is the following script:</p><pre class="programlisting">CREATE OR REPLACE FUNCTION proc_sample RETURN INTEGER
+IS
+result INTEGER;
+BEGIN
+SELECT max(col1) INTO result FROM sometable;
+RETURN result;
+END;
+/</pre><p>
+    Note the trailing forward slash (<code class="literal">/</code>) at the end in order to "turn on" the
+    use of the alternate delimiter. If you run scripts with embedded semicolons and you get
+    an error, please verify the setting for your alternate delimiter.
+  </p><p id="alternate-delimiter-usage"><span class="bold"><strong>When is the alternate delimiter used?</strong></span></p><p>
+    As soon as the statement (or script) that you execute is terminated with the
+    alternate delimiter, the alternate delimiter is used to separate the individual
+    SQL statements. When you execute selected text from the editor, be sure to
+    select the alternate delimiter as well, otherwise it will not be
+    recognized (if the alternate delimiter is not selected, the statement to be executed
+    does not end with the alternate delimiter).
+  </p><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><table border="0" summary="Note"><tr><td valign="top" align="center" rowspan="2" width="25"><img alt="[Note]" src="./images/note.png"></td><th align="left"></th></tr><tr><td valign="top" align="left"><p>
+    You cannot mix the standard semicolon and the alternate delimiter inside
+    one script.
+    </p></td></tr></table></div><p>
+    If you use the alternate delimiter (by terminating the whole script with it), then
+    <span class="bold"><strong>all</strong></span> statements have to be delimited with it.
+    You cannot mix the use	of the normal semicolon and the alternate delimiter for one execution.
+    The following statement (when executed completely) would produce an error message:
+  </p><pre class="programlisting">SELECT sysdate FROM DUAL;
+
+CREATE OR REPLACE FUNCTION proc_sample RETURN INTEGER
+IS
+result INTEGER;
+BEGIN
+SELECT max(col1) INTO result FROM sometable;
+RETURN result;
+END;
+/</pre><p>
+    SQL Workbench/J will use the alternate delimiter present, the <code class="literal">SELECT</code> statement
+    at the beginning will also be sent to the database together with the <code class="literal">CREATE</code>
+    statement. This of course is an invalid statement. You will need to either select and run each statement
+    individually or change the delimiter after the <code class="literal">SELECT</code> to the alternate delimiter.
+  </p></div><div class="navfooter"><hr><table summary="Navigation footer" width="100%"><tr><td align="left" width="40%"><a accesskey="p" href="editor.html">Prev</a>&nbsp;</td><td align="center" width="20%">&nbsp;</td><td align="right" width="40%">&nbsp;<a accesskey="n" href="using.html">Next</a></td></tr><tr><td valign="top" align="left" width="40%">7.&nbsp;Editing SQL Statements&nbsp;</td><td align="center" width="20%"><a accesskey="h" href="workbench-manual.html">Home</a></td><td valign="top" align="right" width="40%">&nbsp;9.&nbsp;Using SQL Workbench/J</td></tr></table></div></body></html>

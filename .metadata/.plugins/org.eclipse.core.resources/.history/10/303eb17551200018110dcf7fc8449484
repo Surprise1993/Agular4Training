@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+  PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+  "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+	<classPathEntry
+		location="C:\Users\admin\.m2\repository\org\postgresql\postgresql\9.4.1212.jre7/postgresql-9.4.1212.jre7.jar" />
+
+	<context id="DB2Tables" targetRuntime="MyBatis3">
+
+		
+		<jdbcConnection driverClass="org.postgresql.Driver"
+			connectionURL="jdbc:postgresql://localhost:5432/training" userId="postgres"
+			password="1qazxsw2">
+		</jdbcConnection>
+		<javaTypeResolver>
+			<property name="forceBigDecimals" value="false" />
+		</javaTypeResolver>
+		<javaModelGenerator targetPackage="cn.com.transcosmos.training.domain"
+			targetProject="src/main/java">
+			<property name="enableSubPackages" value="true" />
+			<property name="trimStrings" value="true" />
+		</javaModelGenerator>
+		<javaClientGenerator targetPackage="cn.com.transcosmos.training.mapper"
+			type="ANNOTATEDMAPPER" targetProject="src/main/java">
+		</javaClientGenerator>
+		<table tableName="tbl_dep" domainObjectName="Department" />
+		<table tableName="tbl_person" domainObjectName="Person" />
+		<table tableName="tbl_plan1" domainObjectName="Plan" />
+		<table tableName="tbl_plan2" domainObjectName="Plan2" />
+		<table tableName="tbl_project" domainObjectName="Project" />
+		<table tableName="tbl_select" domainObjectName="Condition" />
+		<table tableName="tbl_user" domainObjectName="User" />
+	</context>
+</generatorConfiguration>

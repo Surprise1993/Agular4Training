@@ -1,0 +1,134 @@
+package cn.com.transcosmos.training.service;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
+
+import org.hibernate.validator.constraints.Length;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import cn.com.transcosmos.training.domain.Condition;
+import cn.com.transcosmos.training.domain.Person;
+import cn.com.transcosmos.training.domain.PersonFor366;
+import cn.com.transcosmos.training.mapper.PersonFor366Mapper;
+
+@Service
+@Transactional
+public class PersonFor366Service {
+	@Autowired
+	private PersonFor366Mapper personFor366Mapper;
+
+	public List<Map<String, String>> selectAllPersons(Condition condition) {
+		Condition newCondition = addDate(condition);
+		List<String> dateList = getDateStrList(newCondition);
+		List<PersonFor366> personFor366sList = personFor366Mapper.select(newCondition, dateList);
+		for (PersonFor366 personFor366 : personFor366sList) {
+			System.out.println(personFor366.getPERSON_NAME());
+		}
+		return null;
+	}
+
+	public int insertPerson(PersonFor366 personFor366) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public int updatePerson(PersonFor366 personFor366) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public int deletePersonById(String id) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	// 添加起止日期
+	public Condition addDate(Condition condition) {
+		Date d = new Date();
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+		String today = sdf.format(d);
+		if (condition.getPeriod().equals("1")) {
+			condition.setEndDate(today);
+			condition.setStartDate(getDateStr(today, 14));
+		} else if (condition.getPeriod().equals("2")) {
+			condition.setEndDate(today);
+			condition.setStartDate(getDateStr(today, 29));
+		} else if (condition.getPeriod().equals("3")) {
+			condition.setEndDate(today);
+			condition.setStartDate(getDateStr(today, 59));
+		} else if (condition.getPeriod().equals("4")) {
+			condition.setEndDate(today);
+			condition.setStartDate(getDateStr(today, 89));
+		} else if (condition.getPeriod().equals("5")) {
+			if (condition.getStartDate() == null || condition.getEndDate() == null) {
+				condition.setPeriod("1");
+				condition.setEndDate(today);
+				condition.setStartDate(getDateStr(today, 14));
+				return condition;
+			}
+		}
+		return condition;
+	}
+
+	/**
+	 * 获取指定日后 后 dayAddNum 天的 日期
+	 * 
+	 * @param day
+	 *            日期，格式为String："2013-9-3";
+	 * @param dayAddNum
+	 *            增加天数 格式为int;
+	 * @return
+	 */
+	public static String getDateStr(String day, int dayAddNum) {
+		SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd");
+		Date nowDate = null;
+		try {
+			nowDate = df.parse(day);
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}
+		Date newDate2 = new Date((nowDate.getTime() / 1000 - dayAddNum * 24 * 60 * 60) * 1000);
+		SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
+		String dateOk = simpleDateFormat.format(newDate2);
+		return dateOk;
+	}
+
+	public static List<String> getDateStrList(Condition condition) {
+		// String startDateForYear = condition.getStartDate().substring(0, 4);
+		String startDateForMonth = condition.getStartDate().substring(5, 7);
+		String startDateForDay = condition.getStartDate().substring(8, 10);
+
+		// String endDateForYear = condition.getEndDate().substring(0, 4);
+		String endDateForMonth = condition.getEndDate().substring(5, 7);
+		String endDateForDay = condition.getEndDate().substring(8, 10);
+
+		String nowDateForMonth = endDateForMonth;
+		String nowDateForDay = endDateForDay;
+
+		List<String> returnList = new ArrayList<String>();
+
+		String nowDate = condition.getEndDate();
+
+		while ((!nowDateForMonth.equals(startDateForMonth)) || (!nowDateForDay.equals(startDateForDay))) {
+			nowDateForMonth = nowDate.substring(5, 7);
+			nowDateForDay = nowDate.substring(8, 10);
+			returnList.add("PRO_" + nowDateForMonth + nowDateForDay);
+			nowDate = getDateStr(nowDate, 1);
+		}
+
+		if (returnList.size() == 0) {
+			nowDateForMonth = nowDate.substring(5, 7);
+			nowDateForDay = nowDate.substring(8, 10);
+			returnList.add("PRO_" + nowDateForMonth + nowDateForDay);
+		}
+
+		return returnList;
+	}
+}

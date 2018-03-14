@@ -1,0 +1,22 @@
+1514171659614	Rename package 'jp.cn.nri.tstar.gx'
+1514171694928	Rename type 'TstarGXApplication'
+1514171726836	Rename package 'jp.cn.nri.tstar.gx.config'
+1514171744561	Rename package 'jp.cn.nri.tstar.gx.controller'
+1514171759879	Rename package 'jp.cn.nri.tstar.gx.domain'
+1514171784493	Rename package 'jp.cn.nri.tstar.gx.exception.handler'
+1514171795420	Rename package 'jp.cn.nri.tstar.gx.mapper'
+1514171808127	Rename package 'jp.cn.nri.tstar.gx.service'
+1514171821844	Rename package 'jp.cn.nri.tstar.gx.sql.provider'
+1514171839095	Rename package 'jp.cn.nri.tstar.gx.util'
+1514171902608	Delete elements
+1514171908446	Delete element
+1514171927936	Rename type 'UserInfo'
+1514171970719	Delete element
+1514172001029	Rename type 'UserInfoSqlProvider'
+1514176312266	Rename type 'UserInfoMapper'
+1514176726137	Rename type 'UserInfoService'
+1514177144285	Rename type 'UserInfoController'
+1514179149815	Rename type 'Heroe'
+1514179161247	Rename type 'HeroeController'
+1514179170563	Rename type 'HeroeService'
+1514179178797	Rename type 'HeroeSqlProvider'

@@ -1,0 +1,20 @@
+.condition{
+    margin: auto;
+    border: 1px solid #9cbad8;
+    width: 1400px;
+    background-color:#d2e4f7;
+}
+.row{
+    height: 50px;
+}
+.cowleft{
+    padding-top:10px; 
+    font-size: 1.3em;
+}
+.cowright{
+    padding-top:10px; 
+    font-size: 1.1em;
+}
+.btn{
+    width: 100px;
+}

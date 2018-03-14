@@ -1,0 +1,14 @@
+package cn.com.transcosmos.training.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import cn.com.transcosmos.training.mapper.PersonFor366Mapper;
+
+@Service
+@Transactional
+public class PersonFor366Service {
+@Autowired
+private PersonFor366Mapper personFor366Mapper;
+}

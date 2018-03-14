@@ -1,0 +1,108 @@
+<!-- 我来组成头部 -->
+<div class="header text-center">
+    <h1>人员体制信息管理
+        <small class="text-muted">登录者： 登录时间： </small>
+        <button class="btn btn-primary">退出</button>
+    </h1>
+    <!-- 检索条件 -->
+</div>
+
+<div class="row">
+    <div class="col-md-2 col-form-label cowleft ">&nbsp;&nbsp; 选择已有检索条件：</div>
+    <div class="col-md-3 col-form-label cowright">
+        <select class="form-control" [(ngModel)]='selectId' (click)="doConditionChange(selectId)">
+            <option *ngFor="let cond of conList" [value]="cond.selectId">{{cond.selectName}}</option>
+        </select>
+    </div>
+</div>
+<div class=" condition container ">
+    <ul class="list-unstyled">
+
+        <li class="form-group row">
+            <div class="col-md-1 col-form-label cowleft ">条件名：</div>
+            <div class="col-md-3 col-form-label cowright">
+                <input type="text" [(ngModel)]='condition.selectName' class="form-control">
+            </div>
+            <div class="col-md-3 offset-5 cowright ">
+                <button class="btn btn-primary" (click)="doAddCondition()">添加</button>
+                <button class="btn btn-primary" (click)="doDeductCondition()">删除</button>
+                <button class="btn btn-primary" (click)="doUpdateCondition()">更新</button>
+            </div>
+        </li>
+        <li class="form-group row">
+            <div class="col-md-1 col-form-label cowleft ">期 间 ：</div>
+            <div class="col-md-11 col-form-label cowright">
+                <div class="row">
+                    <div class="col-md-1">
+                        <input type="radio" [(ngModel)]="condition.period" value="1">最近15日</div>
+                    <div class="col-md-1">
+                        <input type="radio" [(ngModel)]="condition.period" value="2">最近30日</div>
+                    <div class="col-md-1">
+                        <input type="radio" [(ngModel)]="condition.period" value="3">最近60日</div>
+                    <div class="col-md-1">
+                        <input type="radio" [(ngModel)]="condition.period" value="4">最近90日</div>
+                    <div class="col-md-7">
+                        <input type="radio" [(ngModel)]="condition.period" value="5">其他
+                        <input [disabled]="condition.period!=5" [(ngModel)]="condition.startDate" type="date" class="mydate"> ~
+                        <input [disabled]="condition.period!=5" [(ngModel)]="condition.endDate" type="date" class="mydate">
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="form-group row">
+            <div class="col-md-1 col-form-label cowleft ">部 门 ：</div>
+            <div class="col-md-3 col-form-label cowright">
+                <select class="form-control" [(ngModel)]="condition.deptId">
+                    <option *ngFor="let department of deptList" [value]="department.deptId">{{department.deptName}}</option>
+                </select>
+
+            </div>
+            <div class="col-md-1 col-form-label cowleft ">项 目 ：</div>
+            <div class="col-md-3 col-form-label cowright">
+                <select class="form-control" [(ngModel)]="condition.proId">
+                    <option *ngFor="let project of proList" [value]="project.proId">{{project.proName}}</option>
+                </select>
+            </div>
+            <div class="col-md-1 col-form-label cowleft ">姓 名 ：</div>
+            <div class="col-md-3 col-form-label cowright">
+                <input type="text" class="form-control" [(ngModel)]="condition.personName">
+            </div>
+        </li>
+        <li class="form-group row">
+            <div class="col-md-2 offset-10 cowright ">
+                <button class="btn btn-primary" (click)="doSearchPerson()">检索</button>
+            </div>
+        </li>
+    </ul>
+</div>
+<!-- 数据显示 -->
+<div class="data">
+    <div class="container condition">
+        <div class="row">
+            <div class="col-md-2 cowleft">检索结果统计：</div>
+            <div class="col-md-2 cowright"> </div>
+        </div>
+    </div>
+    <div class="container condition">
+        <div class="row">
+            <div class="col-md-1 cowleft">
+                <button class="btn btn-primary" (click)="test()">数据保存</button>
+            </div>
+            <div class="col-md-1 cowleft">
+                <button class="btn btn-primary">Excel导出</button>
+            </div>
+            <div class="col-md-1 offset-7 cowleft">
+                <button class="btn btn-primary">按日显示</button>
+            </div>
+            <div class="col-md-1 cowleft">
+                <button class="btn btn-primary">按周显示</button>
+            </div>
+            <div class="col-md-1 cowleft">
+                <button class="btn btn-primary">按月显示</button>
+            </div>
+        </div>
+        <wj-flex-grid style="height:100%;width:100%;" [itemsSource]="perMapList" [selectionMode]="'Row'" [isReadOnly]="false" [autoSizeMode]="'Cells'"
+            [autoGenerateColumns]="true">
+        </wj-flex-grid>
+    </div>
+</div>

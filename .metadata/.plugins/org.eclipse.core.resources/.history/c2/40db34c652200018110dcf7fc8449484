@@ -1,0 +1,2574 @@
+package cn.com.transcosmos.training.domain;
+
+public class PersonFor366 {
+	private String PERSON_ID;
+	private String PRO_0101;
+	private String PRO_0102;
+	private String PRO_0103;
+	private String PRO_0104;
+	private String PRO_0105;
+	private String PRO_0106;
+	private String PRO_0107;
+	private String PRO_0108;
+	private String PRO_0109;
+	private String PRO_0110;
+	private String PRO_0111;
+	private String PRO_0112;
+	private String PRO_0113;
+	private String PRO_0114;
+	private String PRO_0115;
+	private String PRO_0116;
+	private String PRO_0117;
+	private String PRO_0118;
+	private String PRO_0119;
+	private String PRO_0120;
+	private String PRO_0121;
+	private String PRO_0122;
+	private String PRO_0123;
+	private String PRO_0124;
+	private String PRO_0125;
+	private String PRO_0126;
+	private String PRO_0127;
+	private String PRO_0128;
+	private String PRO_0129;
+	private String PRO_0130;
+	private String PRO_0131;
+	private String PRO_0201;
+	private String PRO_0202;
+	private String PRO_0203;
+	private String PRO_0204;
+	private String PRO_0205;
+	private String PRO_0206;
+	private String PRO_0207;
+	private String PRO_0208;
+	private String PRO_0209;
+	private String PRO_0210;
+	private String PRO_0211;
+	private String PRO_0212;
+	private String PRO_0213;
+	private String PRO_0214;
+	private String PRO_0215;
+	private String PRO_0216;
+	private String PRO_0217;
+	private String PRO_0218;
+	private String PRO_0219;
+	private String PRO_0220;
+	private String PRO_0221;
+	private String PRO_0222;
+	private String PRO_0223;
+	private String PRO_0224;
+	private String PRO_0225;
+	private String PRO_0226;
+	private String PRO_0227;
+	private String PRO_0228;
+	private String PRO_0229;
+	private String PRO_0301;
+	private String PRO_0302;
+	private String PRO_0303;
+	private String PRO_0304;
+	private String PRO_0305;
+	private String PRO_0306;
+	private String PRO_0307;
+	private String PRO_0308;
+	private String PRO_0309;
+	private String PRO_0310;
+	private String PRO_0311;
+	private String PRO_0312;
+	private String PRO_0313;
+	private String PRO_0314;
+	private String PRO_0315;
+	private String PRO_0316;
+	private String PRO_0317;
+	private String PRO_0318;
+	private String PRO_0319;
+	private String PRO_0320;
+	private String PRO_0321;
+	private String PRO_0322;
+	private String PRO_0323;
+	private String PRO_0324;
+	private String PRO_0325;
+	private String PRO_0326;
+	private String PRO_0327;
+	private String PRO_0328;
+	private String PRO_0329;
+	private String PRO_0330;
+	private String PRO_0331;
+	private String PRO_0401;
+	private String PRO_0402;
+	private String PRO_0403;
+	private String PRO_0404;
+	private String PRO_0405;
+	private String PRO_0406;
+	private String PRO_0407;
+	private String PRO_0408;
+	private String PRO_0409;
+	private String PRO_0410;
+	private String PRO_0411;
+	private String PRO_0412;
+	private String PRO_0413;
+	private String PRO_0414;
+	private String PRO_0415;
+	private String PRO_0416;
+	private String PRO_0417;
+	private String PRO_0418;
+	private String PRO_0419;
+	private String PRO_0420;
+	private String PRO_0421;
+	private String PRO_0422;
+	private String PRO_0423;
+	private String PRO_0424;
+	private String PRO_0425;
+	private String PRO_0426;
+	private String PRO_0427;
+	private String PRO_0428;
+	private String PRO_0429;
+	private String PRO_0430;
+	private String PRO_0501;
+	private String PRO_0502;
+	private String PRO_0503;
+	private String PRO_0504;
+	private String PRO_0505;
+	private String PRO_0506;
+	private String PRO_0507;
+	private String PRO_0508;
+	private String PRO_0509;
+	private String PRO_0510;
+	private String PRO_0511;
+	private String PRO_0512;
+	private String PRO_0513;
+	private String PRO_0514;
+	private String PRO_0515;
+	private String PRO_0516;
+	private String PRO_0517;
+	private String PRO_0518;
+	private String PRO_0519;
+	private String PRO_0520;
+	private String PRO_0521;
+	private String PRO_0522;
+	private String PRO_0523;
+	private String PRO_0524;
+	private String PRO_0525;
+	private String PRO_0526;
+	private String PRO_0527;
+	private String PRO_0528;
+	private String PRO_0529;
+	private String PRO_0530;
+	private String PRO_0531;
+	private String PRO_0601;
+	private String PRO_0602;
+	private String PRO_0603;
+	private String PRO_0604;
+	private String PRO_0605;
+	private String PRO_0606;
+	private String PRO_0607;
+	private String PRO_0608;
+	private String PRO_0609;
+	private String PRO_0610;
+	private String PRO_0611;
+	private String PRO_0612;
+	private String PRO_0613;
+	private String PRO_0614;
+	private String PRO_0615;
+	private String PRO_0616;
+	private String PRO_0617;
+	private String PRO_0618;
+	private String PRO_0619;
+	private String PRO_0620;
+	private String PRO_0621;
+	private String PRO_0622;
+	private String PRO_0623;
+	private String PRO_0624;
+	private String PRO_0625;
+	private String PRO_0626;
+	private String PRO_0627;
+	private String PRO_0628;
+	private String PRO_0629;
+	private String PRO_0630;
+	private String PRO_0701;
+	private String PRO_0702;
+	private String PRO_0703;
+	private String PRO_0704;
+	private String PRO_0705;
+	private String PRO_0706;
+	private String PRO_0707;
+	private String PRO_0708;
+	private String PRO_0709;
+	private String PRO_0710;
+	private String PRO_0711;
+	private String PRO_0712;
+	private String PRO_0713;
+	private String PRO_0714;
+	private String PRO_0715;
+	private String PRO_0716;
+	private String PRO_0717;
+	private String PRO_0718;
+	private String PRO_0719;
+	private String PRO_0720;
+	private String PRO_0721;
+	private String PRO_0722;
+	private String PRO_0723;
+	private String PRO_0724;
+	private String PRO_0725;
+	private String PRO_0726;
+	private String PRO_0727;
+	private String PRO_0728;
+	private String PRO_0729;
+	private String PRO_0730;
+	private String PRO_0731;
+	private String PRO_0801;
+	private String PRO_0802;
+	private String PRO_0803;
+	private String PRO_0804;
+	private String PRO_0805;
+	private String PRO_0806;
+	private String PRO_0807;
+	private String PRO_0808;
+	private String PRO_0809;
+	private String PRO_0810;
+	private String PRO_0811;
+	private String PRO_0812;
+	private String PRO_0813;
+	private String PRO_0814;
+	private String PRO_0815;
+	private String PRO_0816;
+	private String PRO_0817;
+	private String PRO_0818;
+	private String PRO_0819;
+	private String PRO_0820;
+	private String PRO_0821;
+	private String PRO_0822;
+	private String PRO_0823;
+	private String PRO_0824;
+	private String PRO_0825;
+	private String PRO_0826;
+	private String PRO_0827;
+	private String PRO_0828;
+	private String PRO_0829;
+	private String PRO_0830;
+	private String PRO_0831;
+	private String PRO_0901;
+	private String PRO_0902;
+	private String PRO_0903;
+	private String PRO_0904;
+	private String PRO_0905;
+	private String PRO_0906;
+	private String PRO_0907;
+	private String PRO_0908;
+	private String PRO_0909;
+	private String PRO_0910;
+	private String PRO_0911;
+	private String PRO_0912;
+	private String PRO_0913;
+	private String PRO_0914;
+	private String PRO_0915;
+	private String PRO_0916;
+	private String PRO_0917;
+	private String PRO_0918;
+	private String PRO_0919;
+	private String PRO_0920;
+	private String PRO_0921;
+	private String PRO_0922;
+	private String PRO_0923;
+	private String PRO_0924;
+	private String PRO_0925;
+	private String PRO_0926;
+	private String PRO_0927;
+	private String PRO_0928;
+	private String PRO_0929;
+	private String PRO_0930;
+	private String PRO_1001;
+	private String PRO_1002;
+	private String PRO_1003;
+	private String PRO_1004;
+	private String PRO_1005;
+	private String PRO_1006;
+	private String PRO_1007;
+	private String PRO_1008;
+	private String PRO_1009;
+	private String PRO_1010;
+	private String PRO_1011;
+	private String PRO_1012;
+	private String PRO_1013;
+	private String PRO_1014;
+	private String PRO_1015;
+	private String PRO_1016;
+	private String PRO_1017;
+	private String PRO_1018;
+	private String PRO_1019;
+	private String PRO_1020;
+	private String PRO_1021;
+	private String PRO_1022;
+	private String PRO_1023;
+	private String PRO_1024;
+	private String PRO_1025;
+	private String PRO_1026;
+	private String PRO_1027;
+	private String PRO_1028;
+	private String PRO_1029;
+	private String PRO_1030;
+	private String PRO_1031;
+	private String PRO_1101;
+	private String PRO_1102;
+	private String PRO_1103;
+	private String PRO_1104;
+	private String PRO_1105;
+	private String PRO_1106;
+	private String PRO_1107;
+	private String PRO_1108;
+	private String PRO_1109;
+	private String PRO_1110;
+	private String PRO_1111;
+	private String PRO_1112;
+	private String PRO_1113;
+	private String PRO_1114;
+	private String PRO_1115;
+	private String PRO_1116;
+	private String PRO_1117;
+	private String PRO_1118;
+	private String PRO_1119;
+	private String PRO_1120;
+	private String PRO_1121;
+	private String PRO_1122;
+	private String PRO_1123;
+	private String PRO_1124;
+	private String PRO_1125;
+	private String PRO_1126;
+	private String PRO_1127;
+	private String PRO_1128;
+	private String PRO_1129;
+	private String PRO_1130;
+	private String PRO_1201;
+	private String PRO_1202;
+	private String PRO_1203;
+	private String PRO_1204;
+	private String PRO_1205;
+	private String PRO_1206;
+	private String PRO_1207;
+	private String PRO_1208;
+	private String PRO_1209;
+	private String PRO_1210;
+	private String PRO_1211;
+	private String PRO_1212;
+	private String PRO_1213;
+	private String PRO_1214;
+	private String PRO_1215;
+	private String PRO_1216;
+	private String PRO_1217;
+	private String PRO_1218;
+	private String PRO_1219;
+	private String PRO_1220;
+	private String PRO_1221;
+	private String PRO_1222;
+	private String PRO_1223;
+	private String PRO_1224;
+	private String PRO_1225;
+	private String PRO_1226;
+	private String PRO_1227;
+	private String PRO_1228;
+	private String PRO_1229;
+	private String PRO_1230;
+	private String PRO_1231;
+	public String getPERSON_ID() {
+		return PERSON_ID;
+	}
+	public void setPERSON_ID(String pERSON_ID) {
+		PERSON_ID = pERSON_ID;
+	}
+	public String getPRO_0101() {
+		return PRO_0101;
+	}
+	public void setPRO_0101(String pRO_0101) {
+		PRO_0101 = pRO_0101;
+	}
+	public String getPRO_0102() {
+		return PRO_0102;
+	}
+	public void setPRO_0102(String pRO_0102) {
+		PRO_0102 = pRO_0102;
+	}
+	public String getPRO_0103() {
+		return PRO_0103;
+	}
+	public void setPRO_0103(String pRO_0103) {
+		PRO_0103 = pRO_0103;
+	}
+	public String getPRO_0104() {
+		return PRO_0104;
+	}
+	public void setPRO_0104(String pRO_0104) {
+		PRO_0104 = pRO_0104;
+	}
+	public String getPRO_0105() {
+		return PRO_0105;
+	}
+	public void setPRO_0105(String pRO_0105) {
+		PRO_0105 = pRO_0105;
+	}
+	public String getPRO_0106() {
+		return PRO_0106;
+	}
+	public void setPRO_0106(String pRO_0106) {
+		PRO_0106 = pRO_0106;
+	}
+	public String getPRO_0107() {
+		return PRO_0107;
+	}
+	public void setPRO_0107(String pRO_0107) {
+		PRO_0107 = pRO_0107;
+	}
+	public String getPRO_0108() {
+		return PRO_0108;
+	}
+	public void setPRO_0108(String pRO_0108) {
+		PRO_0108 = pRO_0108;
+	}
+	public String getPRO_0109() {
+		return PRO_0109;
+	}
+	public void setPRO_0109(String pRO_0109) {
+		PRO_0109 = pRO_0109;
+	}
+	public String getPRO_0110() {
+		return PRO_0110;
+	}
+	public void setPRO_0110(String pRO_0110) {
+		PRO_0110 = pRO_0110;
+	}
+	public String getPRO_0111() {
+		return PRO_0111;
+	}
+	public void setPRO_0111(String pRO_0111) {
+		PRO_0111 = pRO_0111;
+	}
+	public String getPRO_0112() {
+		return PRO_0112;
+	}
+	public void setPRO_0112(String pRO_0112) {
+		PRO_0112 = pRO_0112;
+	}
+	public String getPRO_0113() {
+		return PRO_0113;
+	}
+	public void setPRO_0113(String pRO_0113) {
+		PRO_0113 = pRO_0113;
+	}
+	public String getPRO_0114() {
+		return PRO_0114;
+	}
+	public void setPRO_0114(String pRO_0114) {
+		PRO_0114 = pRO_0114;
+	}
+	public String getPRO_0115() {
+		return PRO_0115;
+	}
+	public void setPRO_0115(String pRO_0115) {
+		PRO_0115 = pRO_0115;
+	}
+	public String getPRO_0116() {
+		return PRO_0116;
+	}
+	public void setPRO_0116(String pRO_0116) {
+		PRO_0116 = pRO_0116;
+	}
+	public String getPRO_0117() {
+		return PRO_0117;
+	}
+	public void setPRO_0117(String pRO_0117) {
+		PRO_0117 = pRO_0117;
+	}
+	public String getPRO_0118() {
+		return PRO_0118;
+	}
+	public void setPRO_0118(String pRO_0118) {
+		PRO_0118 = pRO_0118;
+	}
+	public String getPRO_0119() {
+		return PRO_0119;
+	}
+	public void setPRO_0119(String pRO_0119) {
+		PRO_0119 = pRO_0119;
+	}
+	public String getPRO_0120() {
+		return PRO_0120;
+	}
+	public void setPRO_0120(String pRO_0120) {
+		PRO_0120 = pRO_0120;
+	}
+	public String getPRO_0121() {
+		return PRO_0121;
+	}
+	public void setPRO_0121(String pRO_0121) {
+		PRO_0121 = pRO_0121;
+	}
+	public String getPRO_0122() {
+		return PRO_0122;
+	}
+	public void setPRO_0122(String pRO_0122) {
+		PRO_0122 = pRO_0122;
+	}
+	public String getPRO_0123() {
+		return PRO_0123;
+	}
+	public void setPRO_0123(String pRO_0123) {
+		PRO_0123 = pRO_0123;
+	}
+	public String getPRO_0124() {
+		return PRO_0124;
+	}
+	public void setPRO_0124(String pRO_0124) {
+		PRO_0124 = pRO_0124;
+	}
+	public String getPRO_0125() {
+		return PRO_0125;
+	}
+	public void setPRO_0125(String pRO_0125) {
+		PRO_0125 = pRO_0125;
+	}
+	public String getPRO_0126() {
+		return PRO_0126;
+	}
+	public void setPRO_0126(String pRO_0126) {
+		PRO_0126 = pRO_0126;
+	}
+	public String getPRO_0127() {
+		return PRO_0127;
+	}
+	public void setPRO_0127(String pRO_0127) {
+		PRO_0127 = pRO_0127;
+	}
+	public String getPRO_0128() {
+		return PRO_0128;
+	}
+	public void setPRO_0128(String pRO_0128) {
+		PRO_0128 = pRO_0128;
+	}
+	public String getPRO_0129() {
+		return PRO_0129;
+	}
+	public void setPRO_0129(String pRO_0129) {
+		PRO_0129 = pRO_0129;
+	}
+	public String getPRO_0130() {
+		return PRO_0130;
+	}
+	public void setPRO_0130(String pRO_0130) {
+		PRO_0130 = pRO_0130;
+	}
+	public String getPRO_0131() {
+		return PRO_0131;
+	}
+	public void setPRO_0131(String pRO_0131) {
+		PRO_0131 = pRO_0131;
+	}
+	public String getPRO_0201() {
+		return PRO_0201;
+	}
+	public void setPRO_0201(String pRO_0201) {
+		PRO_0201 = pRO_0201;
+	}
+	public String getPRO_0202() {
+		return PRO_0202;
+	}
+	public void setPRO_0202(String pRO_0202) {
+		PRO_0202 = pRO_0202;
+	}
+	public String getPRO_0203() {
+		return PRO_0203;
+	}
+	public void setPRO_0203(String pRO_0203) {
+		PRO_0203 = pRO_0203;
+	}
+	public String getPRO_0204() {
+		return PRO_0204;
+	}
+	public void setPRO_0204(String pRO_0204) {
+		PRO_0204 = pRO_0204;
+	}
+	public String getPRO_0205() {
+		return PRO_0205;
+	}
+	public void setPRO_0205(String pRO_0205) {
+		PRO_0205 = pRO_0205;
+	}
+	public String getPRO_0206() {
+		return PRO_0206;
+	}
+	public void setPRO_0206(String pRO_0206) {
+		PRO_0206 = pRO_0206;
+	}
+	public String getPRO_0207() {
+		return PRO_0207;
+	}
+	public void setPRO_0207(String pRO_0207) {
+		PRO_0207 = pRO_0207;
+	}
+	public String getPRO_0208() {
+		return PRO_0208;
+	}
+	public void setPRO_0208(String pRO_0208) {
+		PRO_0208 = pRO_0208;
+	}
+	public String getPRO_0209() {
+		return PRO_0209;
+	}
+	public void setPRO_0209(String pRO_0209) {
+		PRO_0209 = pRO_0209;
+	}
+	public String getPRO_0210() {
+		return PRO_0210;
+	}
+	public void setPRO_0210(String pRO_0210) {
+		PRO_0210 = pRO_0210;
+	}
+	public String getPRO_0211() {
+		return PRO_0211;
+	}
+	public void setPRO_0211(String pRO_0211) {
+		PRO_0211 = pRO_0211;
+	}
+	public String getPRO_0212() {
+		return PRO_0212;
+	}
+	public void setPRO_0212(String pRO_0212) {
+		PRO_0212 = pRO_0212;
+	}
+	public String getPRO_0213() {
+		return PRO_0213;
+	}
+	public void setPRO_0213(String pRO_0213) {
+		PRO_0213 = pRO_0213;
+	}
+	public String getPRO_0214() {
+		return PRO_0214;
+	}
+	public void setPRO_0214(String pRO_0214) {
+		PRO_0214 = pRO_0214;
+	}
+	public String getPRO_0215() {
+		return PRO_0215;
+	}
+	public void setPRO_0215(String pRO_0215) {
+		PRO_0215 = pRO_0215;
+	}
+	public String getPRO_0216() {
+		return PRO_0216;
+	}
+	public void setPRO_0216(String pRO_0216) {
+		PRO_0216 = pRO_0216;
+	}
+	public String getPRO_0217() {
+		return PRO_0217;
+	}
+	public void setPRO_0217(String pRO_0217) {
+		PRO_0217 = pRO_0217;
+	}
+	public String getPRO_0218() {
+		return PRO_0218;
+	}
+	public void setPRO_0218(String pRO_0218) {
+		PRO_0218 = pRO_0218;
+	}
+	public String getPRO_0219() {
+		return PRO_0219;
+	}
+	public void setPRO_0219(String pRO_0219) {
+		PRO_0219 = pRO_0219;
+	}
+	public String getPRO_0220() {
+		return PRO_0220;
+	}
+	public void setPRO_0220(String pRO_0220) {
+		PRO_0220 = pRO_0220;
+	}
+	public String getPRO_0221() {
+		return PRO_0221;
+	}
+	public void setPRO_0221(String pRO_0221) {
+		PRO_0221 = pRO_0221;
+	}
+	public String getPRO_0222() {
+		return PRO_0222;
+	}
+	public void setPRO_0222(String pRO_0222) {
+		PRO_0222 = pRO_0222;
+	}
+	public String getPRO_0223() {
+		return PRO_0223;
+	}
+	public void setPRO_0223(String pRO_0223) {
+		PRO_0223 = pRO_0223;
+	}
+	public String getPRO_0224() {
+		return PRO_0224;
+	}
+	public void setPRO_0224(String pRO_0224) {
+		PRO_0224 = pRO_0224;
+	}
+	public String getPRO_0225() {
+		return PRO_0225;
+	}
+	public void setPRO_0225(String pRO_0225) {
+		PRO_0225 = pRO_0225;
+	}
+	public String getPRO_0226() {
+		return PRO_0226;
+	}
+	public void setPRO_0226(String pRO_0226) {
+		PRO_0226 = pRO_0226;
+	}
+	public String getPRO_0227() {
+		return PRO_0227;
+	}
+	public void setPRO_0227(String pRO_0227) {
+		PRO_0227 = pRO_0227;
+	}
+	public String getPRO_0228() {
+		return PRO_0228;
+	}
+	public void setPRO_0228(String pRO_0228) {
+		PRO_0228 = pRO_0228;
+	}
+	public String getPRO_0229() {
+		return PRO_0229;
+	}
+	public void setPRO_0229(String pRO_0229) {
+		PRO_0229 = pRO_0229;
+	}
+	public String getPRO_0301() {
+		return PRO_0301;
+	}
+	public void setPRO_0301(String pRO_0301) {
+		PRO_0301 = pRO_0301;
+	}
+	public String getPRO_0302() {
+		return PRO_0302;
+	}
+	public void setPRO_0302(String pRO_0302) {
+		PRO_0302 = pRO_0302;
+	}
+	public String getPRO_0303() {
+		return PRO_0303;
+	}
+	public void setPRO_0303(String pRO_0303) {
+		PRO_0303 = pRO_0303;
+	}
+	public String getPRO_0304() {
+		return PRO_0304;
+	}
+	public void setPRO_0304(String pRO_0304) {
+		PRO_0304 = pRO_0304;
+	}
+	public String getPRO_0305() {
+		return PRO_0305;
+	}
+	public void setPRO_0305(String pRO_0305) {
+		PRO_0305 = pRO_0305;
+	}
+	public String getPRO_0306() {
+		return PRO_0306;
+	}
+	public void setPRO_0306(String pRO_0306) {
+		PRO_0306 = pRO_0306;
+	}
+	public String getPRO_0307() {
+		return PRO_0307;
+	}
+	public void setPRO_0307(String pRO_0307) {
+		PRO_0307 = pRO_0307;
+	}
+	public String getPRO_0308() {
+		return PRO_0308;
+	}
+	public void setPRO_0308(String pRO_0308) {
+		PRO_0308 = pRO_0308;
+	}
+	public String getPRO_0309() {
+		return PRO_0309;
+	}
+	public void setPRO_0309(String pRO_0309) {
+		PRO_0309 = pRO_0309;
+	}
+	public String getPRO_0310() {
+		return PRO_0310;
+	}
+	public void setPRO_0310(String pRO_0310) {
+		PRO_0310 = pRO_0310;
+	}
+	public String getPRO_0311() {
+		return PRO_0311;
+	}
+	public void setPRO_0311(String pRO_0311) {
+		PRO_0311 = pRO_0311;
+	}
+	public String getPRO_0312() {
+		return PRO_0312;
+	}
+	public void setPRO_0312(String pRO_0312) {
+		PRO_0312 = pRO_0312;
+	}
+	public String getPRO_0313() {
+		return PRO_0313;
+	}
+	public void setPRO_0313(String pRO_0313) {
+		PRO_0313 = pRO_0313;
+	}
+	public String getPRO_0314() {
+		return PRO_0314;
+	}
+	public void setPRO_0314(String pRO_0314) {
+		PRO_0314 = pRO_0314;
+	}
+	public String getPRO_0315() {
+		return PRO_0315;
+	}
+	public void setPRO_0315(String pRO_0315) {
+		PRO_0315 = pRO_0315;
+	}
+	public String getPRO_0316() {
+		return PRO_0316;
+	}
+	public void setPRO_0316(String pRO_0316) {
+		PRO_0316 = pRO_0316;
+	}
+	public String getPRO_0317() {
+		return PRO_0317;
+	}
+	public void setPRO_0317(String pRO_0317) {
+		PRO_0317 = pRO_0317;
+	}
+	public String getPRO_0318() {
+		return PRO_0318;
+	}
+	public void setPRO_0318(String pRO_0318) {
+		PRO_0318 = pRO_0318;
+	}
+	public String getPRO_0319() {
+		return PRO_0319;
+	}
+	public void setPRO_0319(String pRO_0319) {
+		PRO_0319 = pRO_0319;
+	}
+	public String getPRO_0320() {
+		return PRO_0320;
+	}
+	public void setPRO_0320(String pRO_0320) {
+		PRO_0320 = pRO_0320;
+	}
+	public String getPRO_0321() {
+		return PRO_0321;
+	}
+	public void setPRO_0321(String pRO_0321) {
+		PRO_0321 = pRO_0321;
+	}
+	public String getPRO_0322() {
+		return PRO_0322;
+	}
+	public void setPRO_0322(String pRO_0322) {
+		PRO_0322 = pRO_0322;
+	}
+	public String getPRO_0323() {
+		return PRO_0323;
+	}
+	public void setPRO_0323(String pRO_0323) {
+		PRO_0323 = pRO_0323;
+	}
+	public String getPRO_0324() {
+		return PRO_0324;
+	}
+	public void setPRO_0324(String pRO_0324) {
+		PRO_0324 = pRO_0324;
+	}
+	public String getPRO_0325() {
+		return PRO_0325;
+	}
+	public void setPRO_0325(String pRO_0325) {
+		PRO_0325 = pRO_0325;
+	}
+	public String getPRO_0326() {
+		return PRO_0326;
+	}
+	public void setPRO_0326(String pRO_0326) {
+		PRO_0326 = pRO_0326;
+	}
+	public String getPRO_0327() {
+		return PRO_0327;
+	}
+	public void setPRO_0327(String pRO_0327) {
+		PRO_0327 = pRO_0327;
+	}
+	public String getPRO_0328() {
+		return PRO_0328;
+	}
+	public void setPRO_0328(String pRO_0328) {
+		PRO_0328 = pRO_0328;
+	}
+	public String getPRO_0329() {
+		return PRO_0329;
+	}
+	public void setPRO_0329(String pRO_0329) {
+		PRO_0329 = pRO_0329;
+	}
+	public String getPRO_0330() {
+		return PRO_0330;
+	}
+	public void setPRO_0330(String pRO_0330) {
+		PRO_0330 = pRO_0330;
+	}
+	public String getPRO_0331() {
+		return PRO_0331;
+	}
+	public void setPRO_0331(String pRO_0331) {
+		PRO_0331 = pRO_0331;
+	}
+	public String getPRO_0401() {
+		return PRO_0401;
+	}
+	public void setPRO_0401(String pRO_0401) {
+		PRO_0401 = pRO_0401;
+	}
+	public String getPRO_0402() {
+		return PRO_0402;
+	}
+	public void setPRO_0402(String pRO_0402) {
+		PRO_0402 = pRO_0402;
+	}
+	public String getPRO_0403() {
+		return PRO_0403;
+	}
+	public void setPRO_0403(String pRO_0403) {
+		PRO_0403 = pRO_0403;
+	}
+	public String getPRO_0404() {
+		return PRO_0404;
+	}
+	public void setPRO_0404(String pRO_0404) {
+		PRO_0404 = pRO_0404;
+	}
+	public String getPRO_0405() {
+		return PRO_0405;
+	}
+	public void setPRO_0405(String pRO_0405) {
+		PRO_0405 = pRO_0405;
+	}
+	public String getPRO_0406() {
+		return PRO_0406;
+	}
+	public void setPRO_0406(String pRO_0406) {
+		PRO_0406 = pRO_0406;
+	}
+	public String getPRO_0407() {
+		return PRO_0407;
+	}
+	public void setPRO_0407(String pRO_0407) {
+		PRO_0407 = pRO_0407;
+	}
+	public String getPRO_0408() {
+		return PRO_0408;
+	}
+	public void setPRO_0408(String pRO_0408) {
+		PRO_0408 = pRO_0408;
+	}
+	public String getPRO_0409() {
+		return PRO_0409;
+	}
+	public void setPRO_0409(String pRO_0409) {
+		PRO_0409 = pRO_0409;
+	}
+	public String getPRO_0410() {
+		return PRO_0410;
+	}
+	public void setPRO_0410(String pRO_0410) {
+		PRO_0410 = pRO_0410;
+	}
+	public String getPRO_0411() {
+		return PRO_0411;
+	}
+	public void setPRO_0411(String pRO_0411) {
+		PRO_0411 = pRO_0411;
+	}
+	public String getPRO_0412() {
+		return PRO_0412;
+	}
+	public void setPRO_0412(String pRO_0412) {
+		PRO_0412 = pRO_0412;
+	}
+	public String getPRO_0413() {
+		return PRO_0413;
+	}
+	public void setPRO_0413(String pRO_0413) {
+		PRO_0413 = pRO_0413;
+	}
+	public String getPRO_0414() {
+		return PRO_0414;
+	}
+	public void setPRO_0414(String pRO_0414) {
+		PRO_0414 = pRO_0414;
+	}
+	public String getPRO_0415() {
+		return PRO_0415;
+	}
+	public void setPRO_0415(String pRO_0415) {
+		PRO_0415 = pRO_0415;
+	}
+	public String getPRO_0416() {
+		return PRO_0416;
+	}
+	public void setPRO_0416(String pRO_0416) {
+		PRO_0416 = pRO_0416;
+	}
+	public String getPRO_0417() {
+		return PRO_0417;
+	}
+	public void setPRO_0417(String pRO_0417) {
+		PRO_0417 = pRO_0417;
+	}
+	public String getPRO_0418() {
+		return PRO_0418;
+	}
+	public void setPRO_0418(String pRO_0418) {
+		PRO_0418 = pRO_0418;
+	}
+	public String getPRO_0419() {
+		return PRO_0419;
+	}
+	public void setPRO_0419(String pRO_0419) {
+		PRO_0419 = pRO_0419;
+	}
+	public String getPRO_0420() {
+		return PRO_0420;
+	}
+	public void setPRO_0420(String pRO_0420) {
+		PRO_0420 = pRO_0420;
+	}
+	public String getPRO_0421() {
+		return PRO_0421;
+	}
+	public void setPRO_0421(String pRO_0421) {
+		PRO_0421 = pRO_0421;
+	}
+	public String getPRO_0422() {
+		return PRO_0422;
+	}
+	public void setPRO_0422(String pRO_0422) {
+		PRO_0422 = pRO_0422;
+	}
+	public String getPRO_0423() {
+		return PRO_0423;
+	}
+	public void setPRO_0423(String pRO_0423) {
+		PRO_0423 = pRO_0423;
+	}
+	public String getPRO_0424() {
+		return PRO_0424;
+	}
+	public void setPRO_0424(String pRO_0424) {
+		PRO_0424 = pRO_0424;
+	}
+	public String getPRO_0425() {
+		return PRO_0425;
+	}
+	public void setPRO_0425(String pRO_0425) {
+		PRO_0425 = pRO_0425;
+	}
+	public String getPRO_0426() {
+		return PRO_0426;
+	}
+	public void setPRO_0426(String pRO_0426) {
+		PRO_0426 = pRO_0426;
+	}
+	public String getPRO_0427() {
+		return PRO_0427;
+	}
+	public void setPRO_0427(String pRO_0427) {
+		PRO_0427 = pRO_0427;
+	}
+	public String getPRO_0428() {
+		return PRO_0428;
+	}
+	public void setPRO_0428(String pRO_0428) {
+		PRO_0428 = pRO_0428;
+	}
+	public String getPRO_0429() {
+		return PRO_0429;
+	}
+	public void setPRO_0429(String pRO_0429) {
+		PRO_0429 = pRO_0429;
+	}
+	public String getPRO_0430() {
+		return PRO_0430;
+	}
+	public void setPRO_0430(String pRO_0430) {
+		PRO_0430 = pRO_0430;
+	}
+	public String getPRO_0501() {
+		return PRO_0501;
+	}
+	public void setPRO_0501(String pRO_0501) {
+		PRO_0501 = pRO_0501;
+	}
+	public String getPRO_0502() {
+		return PRO_0502;
+	}
+	public void setPRO_0502(String pRO_0502) {
+		PRO_0502 = pRO_0502;
+	}
+	public String getPRO_0503() {
+		return PRO_0503;
+	}
+	public void setPRO_0503(String pRO_0503) {
+		PRO_0503 = pRO_0503;
+	}
+	public String getPRO_0504() {
+		return PRO_0504;
+	}
+	public void setPRO_0504(String pRO_0504) {
+		PRO_0504 = pRO_0504;
+	}
+	public String getPRO_0505() {
+		return PRO_0505;
+	}
+	public void setPRO_0505(String pRO_0505) {
+		PRO_0505 = pRO_0505;
+	}
+	public String getPRO_0506() {
+		return PRO_0506;
+	}
+	public void setPRO_0506(String pRO_0506) {
+		PRO_0506 = pRO_0506;
+	}
+	public String getPRO_0507() {
+		return PRO_0507;
+	}
+	public void setPRO_0507(String pRO_0507) {
+		PRO_0507 = pRO_0507;
+	}
+	public String getPRO_0508() {
+		return PRO_0508;
+	}
+	public void setPRO_0508(String pRO_0508) {
+		PRO_0508 = pRO_0508;
+	}
+	public String getPRO_0509() {
+		return PRO_0509;
+	}
+	public void setPRO_0509(String pRO_0509) {
+		PRO_0509 = pRO_0509;
+	}
+	public String getPRO_0510() {
+		return PRO_0510;
+	}
+	public void setPRO_0510(String pRO_0510) {
+		PRO_0510 = pRO_0510;
+	}
+	public String getPRO_0511() {
+		return PRO_0511;
+	}
+	public void setPRO_0511(String pRO_0511) {
+		PRO_0511 = pRO_0511;
+	}
+	public String getPRO_0512() {
+		return PRO_0512;
+	}
+	public void setPRO_0512(String pRO_0512) {
+		PRO_0512 = pRO_0512;
+	}
+	public String getPRO_0513() {
+		return PRO_0513;
+	}
+	public void setPRO_0513(String pRO_0513) {
+		PRO_0513 = pRO_0513;
+	}
+	public String getPRO_0514() {
+		return PRO_0514;
+	}
+	public void setPRO_0514(String pRO_0514) {
+		PRO_0514 = pRO_0514;
+	}
+	public String getPRO_0515() {
+		return PRO_0515;
+	}
+	public void setPRO_0515(String pRO_0515) {
+		PRO_0515 = pRO_0515;
+	}
+	public String getPRO_0516() {
+		return PRO_0516;
+	}
+	public void setPRO_0516(String pRO_0516) {
+		PRO_0516 = pRO_0516;
+	}
+	public String getPRO_0517() {
+		return PRO_0517;
+	}
+	public void setPRO_0517(String pRO_0517) {
+		PRO_0517 = pRO_0517;
+	}
+	public String getPRO_0518() {
+		return PRO_0518;
+	}
+	public void setPRO_0518(String pRO_0518) {
+		PRO_0518 = pRO_0518;
+	}
+	public String getPRO_0519() {
+		return PRO_0519;
+	}
+	public void setPRO_0519(String pRO_0519) {
+		PRO_0519 = pRO_0519;
+	}
+	public String getPRO_0520() {
+		return PRO_0520;
+	}
+	public void setPRO_0520(String pRO_0520) {
+		PRO_0520 = pRO_0520;
+	}
+	public String getPRO_0521() {
+		return PRO_0521;
+	}
+	public void setPRO_0521(String pRO_0521) {
+		PRO_0521 = pRO_0521;
+	}
+	public String getPRO_0522() {
+		return PRO_0522;
+	}
+	public void setPRO_0522(String pRO_0522) {
+		PRO_0522 = pRO_0522;
+	}
+	public String getPRO_0523() {
+		return PRO_0523;
+	}
+	public void setPRO_0523(String pRO_0523) {
+		PRO_0523 = pRO_0523;
+	}
+	public String getPRO_0524() {
+		return PRO_0524;
+	}
+	public void setPRO_0524(String pRO_0524) {
+		PRO_0524 = pRO_0524;
+	}
+	public String getPRO_0525() {
+		return PRO_0525;
+	}
+	public void setPRO_0525(String pRO_0525) {
+		PRO_0525 = pRO_0525;
+	}
+	public String getPRO_0526() {
+		return PRO_0526;
+	}
+	public void setPRO_0526(String pRO_0526) {
+		PRO_0526 = pRO_0526;
+	}
+	public String getPRO_0527() {
+		return PRO_0527;
+	}
+	public void setPRO_0527(String pRO_0527) {
+		PRO_0527 = pRO_0527;
+	}
+	public String getPRO_0528() {
+		return PRO_0528;
+	}
+	public void setPRO_0528(String pRO_0528) {
+		PRO_0528 = pRO_0528;
+	}
+	public String getPRO_0529() {
+		return PRO_0529;
+	}
+	public void setPRO_0529(String pRO_0529) {
+		PRO_0529 = pRO_0529;
+	}
+	public String getPRO_0530() {
+		return PRO_0530;
+	}
+	public void setPRO_0530(String pRO_0530) {
+		PRO_0530 = pRO_0530;
+	}
+	public String getPRO_0531() {
+		return PRO_0531;
+	}
+	public void setPRO_0531(String pRO_0531) {
+		PRO_0531 = pRO_0531;
+	}
+	public String getPRO_0601() {
+		return PRO_0601;
+	}
+	public void setPRO_0601(String pRO_0601) {
+		PRO_0601 = pRO_0601;
+	}
+	public String getPRO_0602() {
+		return PRO_0602;
+	}
+	public void setPRO_0602(String pRO_0602) {
+		PRO_0602 = pRO_0602;
+	}
+	public String getPRO_0603() {
+		return PRO_0603;
+	}
+	public void setPRO_0603(String pRO_0603) {
+		PRO_0603 = pRO_0603;
+	}
+	public String getPRO_0604() {
+		return PRO_0604;
+	}
+	public void setPRO_0604(String pRO_0604) {
+		PRO_0604 = pRO_0604;
+	}
+	public String getPRO_0605() {
+		return PRO_0605;
+	}
+	public void setPRO_0605(String pRO_0605) {
+		PRO_0605 = pRO_0605;
+	}
+	public String getPRO_0606() {
+		return PRO_0606;
+	}
+	public void setPRO_0606(String pRO_0606) {
+		PRO_0606 = pRO_0606;
+	}
+	public String getPRO_0607() {
+		return PRO_0607;
+	}
+	public void setPRO_0607(String pRO_0607) {
+		PRO_0607 = pRO_0607;
+	}
+	public String getPRO_0608() {
+		return PRO_0608;
+	}
+	public void setPRO_0608(String pRO_0608) {
+		PRO_0608 = pRO_0608;
+	}
+	public String getPRO_0609() {
+		return PRO_0609;
+	}
+	public void setPRO_0609(String pRO_0609) {
+		PRO_0609 = pRO_0609;
+	}
+	public String getPRO_0610() {
+		return PRO_0610;
+	}
+	public void setPRO_0610(String pRO_0610) {
+		PRO_0610 = pRO_0610;
+	}
+	public String getPRO_0611() {
+		return PRO_0611;
+	}
+	public void setPRO_0611(String pRO_0611) {
+		PRO_0611 = pRO_0611;
+	}
+	public String getPRO_0612() {
+		return PRO_0612;
+	}
+	public void setPRO_0612(String pRO_0612) {
+		PRO_0612 = pRO_0612;
+	}
+	public String getPRO_0613() {
+		return PRO_0613;
+	}
+	public void setPRO_0613(String pRO_0613) {
+		PRO_0613 = pRO_0613;
+	}
+	public String getPRO_0614() {
+		return PRO_0614;
+	}
+	public void setPRO_0614(String pRO_0614) {
+		PRO_0614 = pRO_0614;
+	}
+	public String getPRO_0615() {
+		return PRO_0615;
+	}
+	public void setPRO_0615(String pRO_0615) {
+		PRO_0615 = pRO_0615;
+	}
+	public String getPRO_0616() {
+		return PRO_0616;
+	}
+	public void setPRO_0616(String pRO_0616) {
+		PRO_0616 = pRO_0616;
+	}
+	public String getPRO_0617() {
+		return PRO_0617;
+	}
+	public void setPRO_0617(String pRO_0617) {
+		PRO_0617 = pRO_0617;
+	}
+	public String getPRO_0618() {
+		return PRO_0618;
+	}
+	public void setPRO_0618(String pRO_0618) {
+		PRO_0618 = pRO_0618;
+	}
+	public String getPRO_0619() {
+		return PRO_0619;
+	}
+	public void setPRO_0619(String pRO_0619) {
+		PRO_0619 = pRO_0619;
+	}
+	public String getPRO_0620() {
+		return PRO_0620;
+	}
+	public void setPRO_0620(String pRO_0620) {
+		PRO_0620 = pRO_0620;
+	}
+	public String getPRO_0621() {
+		return PRO_0621;
+	}
+	public void setPRO_0621(String pRO_0621) {
+		PRO_0621 = pRO_0621;
+	}
+	public String getPRO_0622() {
+		return PRO_0622;
+	}
+	public void setPRO_0622(String pRO_0622) {
+		PRO_0622 = pRO_0622;
+	}
+	public String getPRO_0623() {
+		return PRO_0623;
+	}
+	public void setPRO_0623(String pRO_0623) {
+		PRO_0623 = pRO_0623;
+	}
+	public String getPRO_0624() {
+		return PRO_0624;
+	}
+	public void setPRO_0624(String pRO_0624) {
+		PRO_0624 = pRO_0624;
+	}
+	public String getPRO_0625() {
+		return PRO_0625;
+	}
+	public void setPRO_0625(String pRO_0625) {
+		PRO_0625 = pRO_0625;
+	}
+	public String getPRO_0626() {
+		return PRO_0626;
+	}
+	public void setPRO_0626(String pRO_0626) {
+		PRO_0626 = pRO_0626;
+	}
+	public String getPRO_0627() {
+		return PRO_0627;
+	}
+	public void setPRO_0627(String pRO_0627) {
+		PRO_0627 = pRO_0627;
+	}
+	public String getPRO_0628() {
+		return PRO_0628;
+	}
+	public void setPRO_0628(String pRO_0628) {
+		PRO_0628 = pRO_0628;
+	}
+	public String getPRO_0629() {
+		return PRO_0629;
+	}
+	public void setPRO_0629(String pRO_0629) {
+		PRO_0629 = pRO_0629;
+	}
+	public String getPRO_0630() {
+		return PRO_0630;
+	}
+	public void setPRO_0630(String pRO_0630) {
+		PRO_0630 = pRO_0630;
+	}
+	public String getPRO_0701() {
+		return PRO_0701;
+	}
+	public void setPRO_0701(String pRO_0701) {
+		PRO_0701 = pRO_0701;
+	}
+	public String getPRO_0702() {
+		return PRO_0702;
+	}
+	public void setPRO_0702(String pRO_0702) {
+		PRO_0702 = pRO_0702;
+	}
+	public String getPRO_0703() {
+		return PRO_0703;
+	}
+	public void setPRO_0703(String pRO_0703) {
+		PRO_0703 = pRO_0703;
+	}
+	public String getPRO_0704() {
+		return PRO_0704;
+	}
+	public void setPRO_0704(String pRO_0704) {
+		PRO_0704 = pRO_0704;
+	}
+	public String getPRO_0705() {
+		return PRO_0705;
+	}
+	public void setPRO_0705(String pRO_0705) {
+		PRO_0705 = pRO_0705;
+	}
+	public String getPRO_0706() {
+		return PRO_0706;
+	}
+	public void setPRO_0706(String pRO_0706) {
+		PRO_0706 = pRO_0706;
+	}
+	public String getPRO_0707() {
+		return PRO_0707;
+	}
+	public void setPRO_0707(String pRO_0707) {
+		PRO_0707 = pRO_0707;
+	}
+	public String getPRO_0708() {
+		return PRO_0708;
+	}
+	public void setPRO_0708(String pRO_0708) {
+		PRO_0708 = pRO_0708;
+	}
+	public String getPRO_0709() {
+		return PRO_0709;
+	}
+	public void setPRO_0709(String pRO_0709) {
+		PRO_0709 = pRO_0709;
+	}
+	public String getPRO_0710() {
+		return PRO_0710;
+	}
+	public void setPRO_0710(String pRO_0710) {
+		PRO_0710 = pRO_0710;
+	}
+	public String getPRO_0711() {
+		return PRO_0711;
+	}
+	public void setPRO_0711(String pRO_0711) {
+		PRO_0711 = pRO_0711;
+	}
+	public String getPRO_0712() {
+		return PRO_0712;
+	}
+	public void setPRO_0712(String pRO_0712) {
+		PRO_0712 = pRO_0712;
+	}
+	public String getPRO_0713() {
+		return PRO_0713;
+	}
+	public void setPRO_0713(String pRO_0713) {
+		PRO_0713 = pRO_0713;
+	}
+	public String getPRO_0714() {
+		return PRO_0714;
+	}
+	public void setPRO_0714(String pRO_0714) {
+		PRO_0714 = pRO_0714;
+	}
+	public String getPRO_0715() {
+		return PRO_0715;
+	}
+	public void setPRO_0715(String pRO_0715) {
+		PRO_0715 = pRO_0715;
+	}
+	public String getPRO_0716() {
+		return PRO_0716;
+	}
+	public void setPRO_0716(String pRO_0716) {
+		PRO_0716 = pRO_0716;
+	}
+	public String getPRO_0717() {
+		return PRO_0717;
+	}
+	public void setPRO_0717(String pRO_0717) {
+		PRO_0717 = pRO_0717;
+	}
+	public String getPRO_0718() {
+		return PRO_0718;
+	}
+	public void setPRO_0718(String pRO_0718) {
+		PRO_0718 = pRO_0718;
+	}
+	public String getPRO_0719() {
+		return PRO_0719;
+	}
+	public void setPRO_0719(String pRO_0719) {
+		PRO_0719 = pRO_0719;
+	}
+	public String getPRO_0720() {
+		return PRO_0720;
+	}
+	public void setPRO_0720(String pRO_0720) {
+		PRO_0720 = pRO_0720;
+	}
+	public String getPRO_0721() {
+		return PRO_0721;
+	}
+	public void setPRO_0721(String pRO_0721) {
+		PRO_0721 = pRO_0721;
+	}
+	public String getPRO_0722() {
+		return PRO_0722;
+	}
+	public void setPRO_0722(String pRO_0722) {
+		PRO_0722 = pRO_0722;
+	}
+	public String getPRO_0723() {
+		return PRO_0723;
+	}
+	public void setPRO_0723(String pRO_0723) {
+		PRO_0723 = pRO_0723;
+	}
+	public String getPRO_0724() {
+		return PRO_0724;
+	}
+	public void setPRO_0724(String pRO_0724) {
+		PRO_0724 = pRO_0724;
+	}
+	public String getPRO_0725() {
+		return PRO_0725;
+	}
+	public void setPRO_0725(String pRO_0725) {
+		PRO_0725 = pRO_0725;
+	}
+	public String getPRO_0726() {
+		return PRO_0726;
+	}
+	public void setPRO_0726(String pRO_0726) {
+		PRO_0726 = pRO_0726;
+	}
+	public String getPRO_0727() {
+		return PRO_0727;
+	}
+	public void setPRO_0727(String pRO_0727) {
+		PRO_0727 = pRO_0727;
+	}
+	public String getPRO_0728() {
+		return PRO_0728;
+	}
+	public void setPRO_0728(String pRO_0728) {
+		PRO_0728 = pRO_0728;
+	}
+	public String getPRO_0729() {
+		return PRO_0729;
+	}
+	public void setPRO_0729(String pRO_0729) {
+		PRO_0729 = pRO_0729;
+	}
+	public String getPRO_0730() {
+		return PRO_0730;
+	}
+	public void setPRO_0730(String pRO_0730) {
+		PRO_0730 = pRO_0730;
+	}
+	public String getPRO_0731() {
+		return PRO_0731;
+	}
+	public void setPRO_0731(String pRO_0731) {
+		PRO_0731 = pRO_0731;
+	}
+	public String getPRO_0801() {
+		return PRO_0801;
+	}
+	public void setPRO_0801(String pRO_0801) {
+		PRO_0801 = pRO_0801;
+	}
+	public String getPRO_0802() {
+		return PRO_0802;
+	}
+	public void setPRO_0802(String pRO_0802) {
+		PRO_0802 = pRO_0802;
+	}
+	public String getPRO_0803() {
+		return PRO_0803;
+	}
+	public void setPRO_0803(String pRO_0803) {
+		PRO_0803 = pRO_0803;
+	}
+	public String getPRO_0804() {
+		return PRO_0804;
+	}
+	public void setPRO_0804(String pRO_0804) {
+		PRO_0804 = pRO_0804;
+	}
+	public String getPRO_0805() {
+		return PRO_0805;
+	}
+	public void setPRO_0805(String pRO_0805) {
+		PRO_0805 = pRO_0805;
+	}
+	public String getPRO_0806() {
+		return PRO_0806;
+	}
+	public void setPRO_0806(String pRO_0806) {
+		PRO_0806 = pRO_0806;
+	}
+	public String getPRO_0807() {
+		return PRO_0807;
+	}
+	public void setPRO_0807(String pRO_0807) {
+		PRO_0807 = pRO_0807;
+	}
+	public String getPRO_0808() {
+		return PRO_0808;
+	}
+	public void setPRO_0808(String pRO_0808) {
+		PRO_0808 = pRO_0808;
+	}
+	public String getPRO_0809() {
+		return PRO_0809;
+	}
+	public void setPRO_0809(String pRO_0809) {
+		PRO_0809 = pRO_0809;
+	}
+	public String getPRO_0810() {
+		return PRO_0810;
+	}
+	public void setPRO_0810(String pRO_0810) {
+		PRO_0810 = pRO_0810;
+	}
+	public String getPRO_0811() {
+		return PRO_0811;
+	}
+	public void setPRO_0811(String pRO_0811) {
+		PRO_0811 = pRO_0811;
+	}
+	public String getPRO_0812() {
+		return PRO_0812;
+	}
+	public void setPRO_0812(String pRO_0812) {
+		PRO_0812 = pRO_0812;
+	}
+	public String getPRO_0813() {
+		return PRO_0813;
+	}
+	public void setPRO_0813(String pRO_0813) {
+		PRO_0813 = pRO_0813;
+	}
+	public String getPRO_0814() {
+		return PRO_0814;
+	}
+	public void setPRO_0814(String pRO_0814) {
+		PRO_0814 = pRO_0814;
+	}
+	public String getPRO_0815() {
+		return PRO_0815;
+	}
+	public void setPRO_0815(String pRO_0815) {
+		PRO_0815 = pRO_0815;
+	}
+	public String getPRO_0816() {
+		return PRO_0816;
+	}
+	public void setPRO_0816(String pRO_0816) {
+		PRO_0816 = pRO_0816;
+	}
+	public String getPRO_0817() {
+		return PRO_0817;
+	}
+	public void setPRO_0817(String pRO_0817) {
+		PRO_0817 = pRO_0817;
+	}
+	public String getPRO_0818() {
+		return PRO_0818;
+	}
+	public void setPRO_0818(String pRO_0818) {
+		PRO_0818 = pRO_0818;
+	}
+	public String getPRO_0819() {
+		return PRO_0819;
+	}
+	public void setPRO_0819(String pRO_0819) {
+		PRO_0819 = pRO_0819;
+	}
+	public String getPRO_0820() {
+		return PRO_0820;
+	}
+	public void setPRO_0820(String pRO_0820) {
+		PRO_0820 = pRO_0820;
+	}
+	public String getPRO_0821() {
+		return PRO_0821;
+	}
+	public void setPRO_0821(String pRO_0821) {
+		PRO_0821 = pRO_0821;
+	}
+	public String getPRO_0822() {
+		return PRO_0822;
+	}
+	public void setPRO_0822(String pRO_0822) {
+		PRO_0822 = pRO_0822;
+	}
+	public String getPRO_0823() {
+		return PRO_0823;
+	}
+	public void setPRO_0823(String pRO_0823) {
+		PRO_0823 = pRO_0823;
+	}
+	public String getPRO_0824() {
+		return PRO_0824;
+	}
+	public void setPRO_0824(String pRO_0824) {
+		PRO_0824 = pRO_0824;
+	}
+	public String getPRO_0825() {
+		return PRO_0825;
+	}
+	public void setPRO_0825(String pRO_0825) {
+		PRO_0825 = pRO_0825;
+	}
+	public String getPRO_0826() {
+		return PRO_0826;
+	}
+	public void setPRO_0826(String pRO_0826) {
+		PRO_0826 = pRO_0826;
+	}
+	public String getPRO_0827() {
+		return PRO_0827;
+	}
+	public void setPRO_0827(String pRO_0827) {
+		PRO_0827 = pRO_0827;
+	}
+	public String getPRO_0828() {
+		return PRO_0828;
+	}
+	public void setPRO_0828(String pRO_0828) {
+		PRO_0828 = pRO_0828;
+	}
+	public String getPRO_0829() {
+		return PRO_0829;
+	}
+	public void setPRO_0829(String pRO_0829) {
+		PRO_0829 = pRO_0829;
+	}
+	public String getPRO_0830() {
+		return PRO_0830;
+	}
+	public void setPRO_0830(String pRO_0830) {
+		PRO_0830 = pRO_0830;
+	}
+	public String getPRO_0831() {
+		return PRO_0831;
+	}
+	public void setPRO_0831(String pRO_0831) {
+		PRO_0831 = pRO_0831;
+	}
+	public String getPRO_0901() {
+		return PRO_0901;
+	}
+	public void setPRO_0901(String pRO_0901) {
+		PRO_0901 = pRO_0901;
+	}
+	public String getPRO_0902() {
+		return PRO_0902;
+	}
+	public void setPRO_0902(String pRO_0902) {
+		PRO_0902 = pRO_0902;
+	}
+	public String getPRO_0903() {
+		return PRO_0903;
+	}
+	public void setPRO_0903(String pRO_0903) {
+		PRO_0903 = pRO_0903;
+	}
+	public String getPRO_0904() {
+		return PRO_0904;
+	}
+	public void setPRO_0904(String pRO_0904) {
+		PRO_0904 = pRO_0904;
+	}
+	public String getPRO_0905() {
+		return PRO_0905;
+	}
+	public void setPRO_0905(String pRO_0905) {
+		PRO_0905 = pRO_0905;
+	}
+	public String getPRO_0906() {
+		return PRO_0906;
+	}
+	public void setPRO_0906(String pRO_0906) {
+		PRO_0906 = pRO_0906;
+	}
+	public String getPRO_0907() {
+		return PRO_0907;
+	}
+	public void setPRO_0907(String pRO_0907) {
+		PRO_0907 = pRO_0907;
+	}
+	public String getPRO_0908() {
+		return PRO_0908;
+	}
+	public void setPRO_0908(String pRO_0908) {
+		PRO_0908 = pRO_0908;
+	}
+	public String getPRO_0909() {
+		return PRO_0909;
+	}
+	public void setPRO_0909(String pRO_0909) {
+		PRO_0909 = pRO_0909;
+	}
+	public String getPRO_0910() {
+		return PRO_0910;
+	}
+	public void setPRO_0910(String pRO_0910) {
+		PRO_0910 = pRO_0910;
+	}
+	public String getPRO_0911() {
+		return PRO_0911;
+	}
+	public void setPRO_0911(String pRO_0911) {
+		PRO_0911 = pRO_0911;
+	}
+	public String getPRO_0912() {
+		return PRO_0912;
+	}
+	public void setPRO_0912(String pRO_0912) {
+		PRO_0912 = pRO_0912;
+	}
+	public String getPRO_0913() {
+		return PRO_0913;
+	}
+	public void setPRO_0913(String pRO_0913) {
+		PRO_0913 = pRO_0913;
+	}
+	public String getPRO_0914() {
+		return PRO_0914;
+	}
+	public void setPRO_0914(String pRO_0914) {
+		PRO_0914 = pRO_0914;
+	}
+	public String getPRO_0915() {
+		return PRO_0915;
+	}
+	public void setPRO_0915(String pRO_0915) {
+		PRO_0915 = pRO_0915;
+	}
+	public String getPRO_0916() {
+		return PRO_0916;
+	}
+	public void setPRO_0916(String pRO_0916) {
+		PRO_0916 = pRO_0916;
+	}
+	public String getPRO_0917() {
+		return PRO_0917;
+	}
+	public void setPRO_0917(String pRO_0917) {
+		PRO_0917 = pRO_0917;
+	}
+	public String getPRO_0918() {
+		return PRO_0918;
+	}
+	public void setPRO_0918(String pRO_0918) {
+		PRO_0918 = pRO_0918;
+	}
+	public String getPRO_0919() {
+		return PRO_0919;
+	}
+	public void setPRO_0919(String pRO_0919) {
+		PRO_0919 = pRO_0919;
+	}
+	public String getPRO_0920() {
+		return PRO_0920;
+	}
+	public void setPRO_0920(String pRO_0920) {
+		PRO_0920 = pRO_0920;
+	}
+	public String getPRO_0921() {
+		return PRO_0921;
+	}
+	public void setPRO_0921(String pRO_0921) {
+		PRO_0921 = pRO_0921;
+	}
+	public String getPRO_0922() {
+		return PRO_0922;
+	}
+	public void setPRO_0922(String pRO_0922) {
+		PRO_0922 = pRO_0922;
+	}
+	public String getPRO_0923() {
+		return PRO_0923;
+	}
+	public void setPRO_0923(String pRO_0923) {
+		PRO_0923 = pRO_0923;
+	}
+	public String getPRO_0924() {
+		return PRO_0924;
+	}
+	public void setPRO_0924(String pRO_0924) {
+		PRO_0924 = pRO_0924;
+	}
+	public String getPRO_0925() {
+		return PRO_0925;
+	}
+	public void setPRO_0925(String pRO_0925) {
+		PRO_0925 = pRO_0925;
+	}
+	public String getPRO_0926() {
+		return PRO_0926;
+	}
+	public void setPRO_0926(String pRO_0926) {
+		PRO_0926 = pRO_0926;
+	}
+	public String getPRO_0927() {
+		return PRO_0927;
+	}
+	public void setPRO_0927(String pRO_0927) {
+		PRO_0927 = pRO_0927;
+	}
+	public String getPRO_0928() {
+		return PRO_0928;
+	}
+	public void setPRO_0928(String pRO_0928) {
+		PRO_0928 = pRO_0928;
+	}
+	public String getPRO_0929() {
+		return PRO_0929;
+	}
+	public void setPRO_0929(String pRO_0929) {
+		PRO_0929 = pRO_0929;
+	}
+	public String getPRO_0930() {
+		return PRO_0930;
+	}
+	public void setPRO_0930(String pRO_0930) {
+		PRO_0930 = pRO_0930;
+	}
+	public String getPRO_1001() {
+		return PRO_1001;
+	}
+	public void setPRO_1001(String pRO_1001) {
+		PRO_1001 = pRO_1001;
+	}
+	public String getPRO_1002() {
+		return PRO_1002;
+	}
+	public void setPRO_1002(String pRO_1002) {
+		PRO_1002 = pRO_1002;
+	}
+	public String getPRO_1003() {
+		return PRO_1003;
+	}
+	public void setPRO_1003(String pRO_1003) {
+		PRO_1003 = pRO_1003;
+	}
+	public String getPRO_1004() {
+		return PRO_1004;
+	}
+	public void setPRO_1004(String pRO_1004) {
+		PRO_1004 = pRO_1004;
+	}
+	public String getPRO_1005() {
+		return PRO_1005;
+	}
+	public void setPRO_1005(String pRO_1005) {
+		PRO_1005 = pRO_1005;
+	}
+	public String getPRO_1006() {
+		return PRO_1006;
+	}
+	public void setPRO_1006(String pRO_1006) {
+		PRO_1006 = pRO_1006;
+	}
+	public String getPRO_1007() {
+		return PRO_1007;
+	}
+	public void setPRO_1007(String pRO_1007) {
+		PRO_1007 = pRO_1007;
+	}
+	public String getPRO_1008() {
+		return PRO_1008;
+	}
+	public void setPRO_1008(String pRO_1008) {
+		PRO_1008 = pRO_1008;
+	}
+	public String getPRO_1009() {
+		return PRO_1009;
+	}
+	public void setPRO_1009(String pRO_1009) {
+		PRO_1009 = pRO_1009;
+	}
+	public String getPRO_1010() {
+		return PRO_1010;
+	}
+	public void setPRO_1010(String pRO_1010) {
+		PRO_1010 = pRO_1010;
+	}
+	public String getPRO_1011() {
+		return PRO_1011;
+	}
+	public void setPRO_1011(String pRO_1011) {
+		PRO_1011 = pRO_1011;
+	}
+	public String getPRO_1012() {
+		return PRO_1012;
+	}
+	public void setPRO_1012(String pRO_1012) {
+		PRO_1012 = pRO_1012;
+	}
+	public String getPRO_1013() {
+		return PRO_1013;
+	}
+	public void setPRO_1013(String pRO_1013) {
+		PRO_1013 = pRO_1013;
+	}
+	public String getPRO_1014() {
+		return PRO_1014;
+	}
+	public void setPRO_1014(String pRO_1014) {
+		PRO_1014 = pRO_1014;
+	}
+	public String getPRO_1015() {
+		return PRO_1015;
+	}
+	public void setPRO_1015(String pRO_1015) {
+		PRO_1015 = pRO_1015;
+	}
+	public String getPRO_1016() {
+		return PRO_1016;
+	}
+	public void setPRO_1016(String pRO_1016) {
+		PRO_1016 = pRO_1016;
+	}
+	public String getPRO_1017() {
+		return PRO_1017;
+	}
+	public void setPRO_1017(String pRO_1017) {
+		PRO_1017 = pRO_1017;
+	}
+	public String getPRO_1018() {
+		return PRO_1018;
+	}
+	public void setPRO_1018(String pRO_1018) {
+		PRO_1018 = pRO_1018;
+	}
+	public String getPRO_1019() {
+		return PRO_1019;
+	}
+	public void setPRO_1019(String pRO_1019) {
+		PRO_1019 = pRO_1019;
+	}
+	public String getPRO_1020() {
+		return PRO_1020;
+	}
+	public void setPRO_1020(String pRO_1020) {
+		PRO_1020 = pRO_1020;
+	}
+	public String getPRO_1021() {
+		return PRO_1021;
+	}
+	public void setPRO_1021(String pRO_1021) {
+		PRO_1021 = pRO_1021;
+	}
+	public String getPRO_1022() {
+		return PRO_1022;
+	}
+	public void setPRO_1022(String pRO_1022) {
+		PRO_1022 = pRO_1022;
+	}
+	public String getPRO_1023() {
+		return PRO_1023;
+	}
+	public void setPRO_1023(String pRO_1023) {
+		PRO_1023 = pRO_1023;
+	}
+	public String getPRO_1024() {
+		return PRO_1024;
+	}
+	public void setPRO_1024(String pRO_1024) {
+		PRO_1024 = pRO_1024;
+	}
+	public String getPRO_1025() {
+		return PRO_1025;
+	}
+	public void setPRO_1025(String pRO_1025) {
+		PRO_1025 = pRO_1025;
+	}
+	public String getPRO_1026() {
+		return PRO_1026;
+	}
+	public void setPRO_1026(String pRO_1026) {
+		PRO_1026 = pRO_1026;
+	}
+	public String getPRO_1027() {
+		return PRO_1027;
+	}
+	public void setPRO_1027(String pRO_1027) {
+		PRO_1027 = pRO_1027;
+	}
+	public String getPRO_1028() {
+		return PRO_1028;
+	}
+	public void setPRO_1028(String pRO_1028) {
+		PRO_1028 = pRO_1028;
+	}
+	public String getPRO_1029() {
+		return PRO_1029;
+	}
+	public void setPRO_1029(String pRO_1029) {
+		PRO_1029 = pRO_1029;
+	}
+	public String getPRO_1030() {
+		return PRO_1030;
+	}
+	public void setPRO_1030(String pRO_1030) {
+		PRO_1030 = pRO_1030;
+	}
+	public String getPRO_1031() {
+		return PRO_1031;
+	}
+	public void setPRO_1031(String pRO_1031) {
+		PRO_1031 = pRO_1031;
+	}
+	public String getPRO_1101() {
+		return PRO_1101;
+	}
+	public void setPRO_1101(String pRO_1101) {
+		PRO_1101 = pRO_1101;
+	}
+	public String getPRO_1102() {
+		return PRO_1102;
+	}
+	public void setPRO_1102(String pRO_1102) {
+		PRO_1102 = pRO_1102;
+	}
+	public String getPRO_1103() {
+		return PRO_1103;
+	}
+	public void setPRO_1103(String pRO_1103) {
+		PRO_1103 = pRO_1103;
+	}
+	public String getPRO_1104() {
+		return PRO_1104;
+	}
+	public void setPRO_1104(String pRO_1104) {
+		PRO_1104 = pRO_1104;
+	}
+	public String getPRO_1105() {
+		return PRO_1105;
+	}
+	public void setPRO_1105(String pRO_1105) {
+		PRO_1105 = pRO_1105;
+	}
+	public String getPRO_1106() {
+		return PRO_1106;
+	}
+	public void setPRO_1106(String pRO_1106) {
+		PRO_1106 = pRO_1106;
+	}
+	public String getPRO_1107() {
+		return PRO_1107;
+	}
+	public void setPRO_1107(String pRO_1107) {
+		PRO_1107 = pRO_1107;
+	}
+	public String getPRO_1108() {
+		return PRO_1108;
+	}
+	public void setPRO_1108(String pRO_1108) {
+		PRO_1108 = pRO_1108;
+	}
+	public String getPRO_1109() {
+		return PRO_1109;
+	}
+	public void setPRO_1109(String pRO_1109) {
+		PRO_1109 = pRO_1109;
+	}
+	public String getPRO_1110() {
+		return PRO_1110;
+	}
+	public void setPRO_1110(String pRO_1110) {
+		PRO_1110 = pRO_1110;
+	}
+	public String getPRO_1111() {
+		return PRO_1111;
+	}
+	public void setPRO_1111(String pRO_1111) {
+		PRO_1111 = pRO_1111;
+	}
+	public String getPRO_1112() {
+		return PRO_1112;
+	}
+	public void setPRO_1112(String pRO_1112) {
+		PRO_1112 = pRO_1112;
+	}
+	public String getPRO_1113() {
+		return PRO_1113;
+	}
+	public void setPRO_1113(String pRO_1113) {
+		PRO_1113 = pRO_1113;
+	}
+	public String getPRO_1114() {
+		return PRO_1114;
+	}
+	public void setPRO_1114(String pRO_1114) {
+		PRO_1114 = pRO_1114;
+	}
+	public String getPRO_1115() {
+		return PRO_1115;
+	}
+	public void setPRO_1115(String pRO_1115) {
+		PRO_1115 = pRO_1115;
+	}
+	public String getPRO_1116() {
+		return PRO_1116;
+	}
+	public void setPRO_1116(String pRO_1116) {
+		PRO_1116 = pRO_1116;
+	}
+	public String getPRO_1117() {
+		return PRO_1117;
+	}
+	public void setPRO_1117(String pRO_1117) {
+		PRO_1117 = pRO_1117;
+	}
+	public String getPRO_1118() {
+		return PRO_1118;
+	}
+	public void setPRO_1118(String pRO_1118) {
+		PRO_1118 = pRO_1118;
+	}
+	public String getPRO_1119() {
+		return PRO_1119;
+	}
+	public void setPRO_1119(String pRO_1119) {
+		PRO_1119 = pRO_1119;
+	}
+	public String getPRO_1120() {
+		return PRO_1120;
+	}
+	public void setPRO_1120(String pRO_1120) {
+		PRO_1120 = pRO_1120;
+	}
+	public String getPRO_1121() {
+		return PRO_1121;
+	}
+	public void setPRO_1121(String pRO_1121) {
+		PRO_1121 = pRO_1121;
+	}
+	public String getPRO_1122() {
+		return PRO_1122;
+	}
+	public void setPRO_1122(String pRO_1122) {
+		PRO_1122 = pRO_1122;
+	}
+	public String getPRO_1123() {
+		return PRO_1123;
+	}
+	public void setPRO_1123(String pRO_1123) {
+		PRO_1123 = pRO_1123;
+	}
+	public String getPRO_1124() {
+		return PRO_1124;
+	}
+	public void setPRO_1124(String pRO_1124) {
+		PRO_1124 = pRO_1124;
+	}
+	public String getPRO_1125() {
+		return PRO_1125;
+	}
+	public void setPRO_1125(String pRO_1125) {
+		PRO_1125 = pRO_1125;
+	}
+	public String getPRO_1126() {
+		return PRO_1126;
+	}
+	public void setPRO_1126(String pRO_1126) {
+		PRO_1126 = pRO_1126;
+	}
+	public String getPRO_1127() {
+		return PRO_1127;
+	}
+	public void setPRO_1127(String pRO_1127) {
+		PRO_1127 = pRO_1127;
+	}
+	public String getPRO_1128() {
+		return PRO_1128;
+	}
+	public void setPRO_1128(String pRO_1128) {
+		PRO_1128 = pRO_1128;
+	}
+	public String getPRO_1129() {
+		return PRO_1129;
+	}
+	public void setPRO_1129(String pRO_1129) {
+		PRO_1129 = pRO_1129;
+	}
+	public String getPRO_1130() {
+		return PRO_1130;
+	}
+	public void setPRO_1130(String pRO_1130) {
+		PRO_1130 = pRO_1130;
+	}
+	public String getPRO_1201() {
+		return PRO_1201;
+	}
+	public void setPRO_1201(String pRO_1201) {
+		PRO_1201 = pRO_1201;
+	}
+	public String getPRO_1202() {
+		return PRO_1202;
+	}
+	public void setPRO_1202(String pRO_1202) {
+		PRO_1202 = pRO_1202;
+	}
+	public String getPRO_1203() {
+		return PRO_1203;
+	}
+	public void setPRO_1203(String pRO_1203) {
+		PRO_1203 = pRO_1203;
+	}
+	public String getPRO_1204() {
+		return PRO_1204;
+	}
+	public void setPRO_1204(String pRO_1204) {
+		PRO_1204 = pRO_1204;
+	}
+	public String getPRO_1205() {
+		return PRO_1205;
+	}
+	public void setPRO_1205(String pRO_1205) {
+		PRO_1205 = pRO_1205;
+	}
+	public String getPRO_1206() {
+		return PRO_1206;
+	}
+	public void setPRO_1206(String pRO_1206) {
+		PRO_1206 = pRO_1206;
+	}
+	public String getPRO_1207() {
+		return PRO_1207;
+	}
+	public void setPRO_1207(String pRO_1207) {
+		PRO_1207 = pRO_1207;
+	}
+	public String getPRO_1208() {
+		return PRO_1208;
+	}
+	public void setPRO_1208(String pRO_1208) {
+		PRO_1208 = pRO_1208;
+	}
+	public String getPRO_1209() {
+		return PRO_1209;
+	}
+	public void setPRO_1209(String pRO_1209) {
+		PRO_1209 = pRO_1209;
+	}
+	public String getPRO_1210() {
+		return PRO_1210;
+	}
+	public void setPRO_1210(String pRO_1210) {
+		PRO_1210 = pRO_1210;
+	}
+	public String getPRO_1211() {
+		return PRO_1211;
+	}
+	public void setPRO_1211(String pRO_1211) {
+		PRO_1211 = pRO_1211;
+	}
+	public String getPRO_1212() {
+		return PRO_1212;
+	}
+	public void setPRO_1212(String pRO_1212) {
+		PRO_1212 = pRO_1212;
+	}
+	public String getPRO_1213() {
+		return PRO_1213;
+	}
+	public void setPRO_1213(String pRO_1213) {
+		PRO_1213 = pRO_1213;
+	}
+	public String getPRO_1214() {
+		return PRO_1214;
+	}
+	public void setPRO_1214(String pRO_1214) {
+		PRO_1214 = pRO_1214;
+	}
+	public String getPRO_1215() {
+		return PRO_1215;
+	}
+	public void setPRO_1215(String pRO_1215) {
+		PRO_1215 = pRO_1215;
+	}
+	public String getPRO_1216() {
+		return PRO_1216;
+	}
+	public void setPRO_1216(String pRO_1216) {
+		PRO_1216 = pRO_1216;
+	}
+	public String getPRO_1217() {
+		return PRO_1217;
+	}
+	public void setPRO_1217(String pRO_1217) {
+		PRO_1217 = pRO_1217;
+	}
+	public String getPRO_1218() {
+		return PRO_1218;
+	}
+	public void setPRO_1218(String pRO_1218) {
+		PRO_1218 = pRO_1218;
+	}
+	public String getPRO_1219() {
+		return PRO_1219;
+	}
+	public void setPRO_1219(String pRO_1219) {
+		PRO_1219 = pRO_1219;
+	}
+	public String getPRO_1220() {
+		return PRO_1220;
+	}
+	public void setPRO_1220(String pRO_1220) {
+		PRO_1220 = pRO_1220;
+	}
+	public String getPRO_1221() {
+		return PRO_1221;
+	}
+	public void setPRO_1221(String pRO_1221) {
+		PRO_1221 = pRO_1221;
+	}
+	public String getPRO_1222() {
+		return PRO_1222;
+	}
+	public void setPRO_1222(String pRO_1222) {
+		PRO_1222 = pRO_1222;
+	}
+	public String getPRO_1223() {
+		return PRO_1223;
+	}
+	public void setPRO_1223(String pRO_1223) {
+		PRO_1223 = pRO_1223;
+	}
+	public String getPRO_1224() {
+		return PRO_1224;
+	}
+	public void setPRO_1224(String pRO_1224) {
+		PRO_1224 = pRO_1224;
+	}
+	public String getPRO_1225() {
+		return PRO_1225;
+	}
+	public void setPRO_1225(String pRO_1225) {
+		PRO_1225 = pRO_1225;
+	}
+	public String getPRO_1226() {
+		return PRO_1226;
+	}
+	public void setPRO_1226(String pRO_1226) {
+		PRO_1226 = pRO_1226;
+	}
+	public String getPRO_1227() {
+		return PRO_1227;
+	}
+	public void setPRO_1227(String pRO_1227) {
+		PRO_1227 = pRO_1227;
+	}
+	public String getPRO_1228() {
+		return PRO_1228;
+	}
+	public void setPRO_1228(String pRO_1228) {
+		PRO_1228 = pRO_1228;
+	}
+	public String getPRO_1229() {
+		return PRO_1229;
+	}
+	public void setPRO_1229(String pRO_1229) {
+		PRO_1229 = pRO_1229;
+	}
+	public String getPRO_1230() {
+		return PRO_1230;
+	}
+	public void setPRO_1230(String pRO_1230) {
+		PRO_1230 = pRO_1230;
+	}
+	public String getPRO_1231() {
+		return PRO_1231;
+	}
+	public void setPRO_1231(String pRO_1231) {
+		PRO_1231 = pRO_1231;
+	}
+	
+}
